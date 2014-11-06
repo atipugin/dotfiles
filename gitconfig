@@ -1,0 +1,16 @@
+[user]
+email = atipugin@gmail.com
+name = Alexander Tipugin
+
+[core]
+autocrlf = input
+excludesfile = ~/.gitignore_global
+
+[color]
+ui = auto
+
+[push]
+default = current
+
+[credential]
+helper = osxkeychain
