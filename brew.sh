@@ -29,6 +29,8 @@ if [[ -x /usr/local/bin/brew ]]; then
     "ssh-copy-id"
     "wget"
     "zsh"
+    "zsh-completions"
+    "zsh-syntax-highlighting"
   )
 
   declare -a casks=(
@@ -46,6 +48,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "qlmarkdown"
     "qlstephen"
     "sequel-pro"
+    "slack"
     "sourcetree"
     "sublime-text3"
     "the-unarchiver"
