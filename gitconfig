@@ -14,3 +14,12 @@ default = current
 
 [credential]
 helper = osxkeychain
+
+[branch]
+autosetuprebase = always
+
+[fetch]
+prune = true
+
+[merge]
+ff = only
