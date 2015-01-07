@@ -6,6 +6,9 @@ if [[ -x /usr/local/bin/brew ]]; then
 
   brew tap caskroom/versions
   brew tap thoughtbot/formulae
+  brew tap homebrew/dupes
+  brew tap homebrew/versions
+  brew tap homebrew/homebrew-php
 
   declare -a brews=(
     "caskroom/cask/brew-cask"
@@ -17,8 +20,10 @@ if [[ -x /usr/local/bin/brew ]]; then
     "memcached"
     "mongodb"
     "mysql"
+    "nginx"
     "node"
     "npm"
+    "php56 --with-fpm"
     "postgresql"
     "pow"
     "rbenv"
@@ -40,10 +45,8 @@ if [[ -x /usr/local/bin/brew ]]; then
     "evernote"
     "flash"
     "flux"
-    "google-chrome"
     "iterm2"
     "mplayerx"
-    "onepassword"
     "qlcolorcode"
     "qlmarkdown"
     "qlstephen"
