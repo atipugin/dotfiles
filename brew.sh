@@ -45,6 +45,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "evernote"
     "flash"
     "flux"
+    "instacast"
     "iterm2"
     "mplayerx"
     "qlcolorcode"
