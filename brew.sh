@@ -48,6 +48,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "instacast"
     "iterm2"
     "mplayerx"
+    "navicat-for-postgresql"
     "qlcolorcode"
     "qlmarkdown"
     "qlstephen"
