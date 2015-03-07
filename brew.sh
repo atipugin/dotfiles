@@ -42,7 +42,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "bartender"
     "caffeine"
     "dropbox"
-    "evernote"
     "flash"
     "flux"
     "instacast"
