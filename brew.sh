@@ -46,6 +46,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "flux"
     "instacast"
     "iterm2"
+    "mac2imgur"
     "mplayerx"
     "navicat-for-postgresql"
     "qlcolorcode"
