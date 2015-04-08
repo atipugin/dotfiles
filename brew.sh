@@ -49,6 +49,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "mac2imgur"
     "mplayerx"
     "navicat-for-postgresql"
+    "punto-switcher"
     "qlcolorcode"
     "qlmarkdown"
     "qlstephen"
