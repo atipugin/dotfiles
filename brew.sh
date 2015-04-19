@@ -26,6 +26,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "php56 --with-fpm"
     "postgresql"
     "pow"
+    "python"
     "rbenv"
     "rcm"
     "redis"
