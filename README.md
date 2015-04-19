@@ -22,6 +22,12 @@ Install necessary brews and apps:
 
 Install dotfiles:
 
-``` shell
+```shell
 rcup -d `pwd` -x README.md
+```
+
+Configure OSX the right way:
+
+```shell
+./osx
 ```
