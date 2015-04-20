@@ -14,6 +14,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "caskroom/cask/brew-cask"
     "curl"
     "git"
+    "go"
     "grc"
     "imagemagick"
     "mackup"
