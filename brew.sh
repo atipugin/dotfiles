@@ -13,6 +13,7 @@ if [[ -x /usr/local/bin/brew ]]; then
   declare -a brews=(
     "caskroom/cask/brew-cask"
     "curl"
+    "elasticsearch"
     "git"
     "go"
     "grc"
@@ -48,6 +49,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "flux"
     "instacast"
     "iterm2"
+    "java"
     "mac2imgur"
     "mplayerx"
     "navicat-for-postgresql"
