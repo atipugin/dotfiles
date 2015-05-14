@@ -25,7 +25,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "nginx"
     "node"
     "npm"
-    "php56 --with-fpm"
+    "php56 --with-fpm --with-config-file-scan-dir=/usr/local/etc/php/5.6/conf.d"
     "postgresql"
     "pow"
     "python"
