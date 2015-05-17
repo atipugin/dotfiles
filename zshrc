@@ -27,6 +27,8 @@ export EDITOR=/usr/local/bin/subl
 
 alias t=touch
 alias zshconfig="$EDITOR $HOME/.zshrc"
+alias dc=docker-compose
+alias dm=docker-machine
 
 # Enable completion
 # ---------------------------------------
