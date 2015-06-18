@@ -54,3 +54,6 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Load local Zsh settings if exists
 [[ -f $HOME/.zshrc.local ]] && source $HOME/.zshrc.local
+
+# Init boot2docker
+eval $(boot2docker shellinit 2>/dev/null)
