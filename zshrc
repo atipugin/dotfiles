@@ -55,5 +55,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Load local Zsh settings if exists
 [[ -f $HOME/.zshrc.local ]] && source $HOME/.zshrc.local
 
-# Init boot2docker
-eval $(boot2docker shellinit 2>/dev/null)
+# Add lunchy autocompletion
+LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
+if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then
+  . $LUNCHY_DIR/lunchy-completion.zsh
+fi

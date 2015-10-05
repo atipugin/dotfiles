@@ -11,7 +11,6 @@ if [[ -x /usr/local/bin/brew ]]; then
   brew tap homebrew/homebrew-php
 
   declare -a brews=(
-    "boot2docker"
     "caskroom/cask/brew-cask"
     "curl"
     "docker"
