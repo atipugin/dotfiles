@@ -45,18 +45,16 @@ if [[ -x /usr/local/bin/brew ]]; then
   )
 
   declare -a casks=(
-    "bartender"
     "caffeine"
     "dropbox"
     "flash"
     "flux"
-    "instacast"
     "iterm2"
     "java"
     "mac2imgur"
     "mplayerx"
     "navicat-for-postgresql"
-    "punto-switcher"
+    "numi"
     "qlcolorcode"
     "qlmarkdown"
     "qlstephen"
@@ -65,7 +63,9 @@ if [[ -x /usr/local/bin/brew ]]; then
     "sourcetree"
     "sublime-text3"
     "the-unarchiver"
-    "utorrent"
+    "transmission"
+    "vagrant"
+    "vagrant-manager"
     "virtualbox"
   )
 
