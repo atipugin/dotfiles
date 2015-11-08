@@ -59,6 +59,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "qlmarkdown"
     "qlstephen"
     "sequel-pro"
+    "skype"
     "slack"
     "sourcetree"
     "sublime-text3"
