@@ -4,7 +4,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME='ys'
-plugins=(git brew sublime bundler rails redis-cli)
+plugins=(git brew sublime bundler rails vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -27,8 +27,6 @@ export EDITOR=/usr/local/bin/subl
 
 alias t=touch
 alias zshconfig="$EDITOR $HOME/.zshrc"
-alias dc=docker-compose
-alias dm=docker-machine
 
 # Enable completion
 # ---------------------------------------
@@ -54,9 +52,3 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Load local Zsh settings if exists
 [[ -f $HOME/.zshrc.local ]] && source $HOME/.zshrc.local
-
-# Add lunchy autocompletion
-LUNCHY_DIR=$(dirname `gem which lunchy`)/../extras
-if [ -f $LUNCHY_DIR/lunchy-completion.zsh ]; then
-  . $LUNCHY_DIR/lunchy-completion.zsh
-fi

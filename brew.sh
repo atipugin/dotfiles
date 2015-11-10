@@ -9,35 +9,18 @@ if [[ -x /usr/local/bin/brew ]]; then
   brew tap thoughtbot/formulae
   brew tap homebrew/dupes
   brew tap homebrew/versions
-  brew tap homebrew/homebrew-php
 
   declare -a brews=(
     "caskroom/cask/brew-cask"
     "curl"
-    "docker"
-    "docker-compose"
-    "docker-machine"
-    "elasticsearch"
     "git"
     "go"
     "grc"
-    "imagemagick"
     "mackup"
-    "memcached"
-    "mongodb"
-    "mysql"
-    "nginx"
-    "node"
-    "npm"
-    "php56 --with-fpm --with-config-file-scan-dir=/usr/local/etc/php/5.6/conf.d"
-    "postgresql"
-    "pow"
     "python"
     "rbenv"
     "rcm"
-    "redis"
     "ruby-build"
-    "sphinx --mysql --pgsql"
     "ssh-copy-id"
     "wget"
     "zsh"
