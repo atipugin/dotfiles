@@ -45,3 +45,8 @@ bind m:ctrl;cmd ${bottom-right-corner}
 
 bind 1:${modal-key} sequence layout 1coding
 bind 2:${modal-key} sequence layout 2coding
+
+bind b:e,cmd focus ${app-browser}
+bind e:e,cmd focus ${app-editor}
+bind t:e,cmd focus ${app-terminal}
+bind g:e,cmd focus ${app-git}
