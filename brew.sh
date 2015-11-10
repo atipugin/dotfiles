@@ -62,6 +62,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "sequel-pro"
     "skype"
     "slack"
+    "slate"
     "sourcetree"
     "sublime-text3"
     "the-unarchiver"
