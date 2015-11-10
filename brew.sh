@@ -5,6 +5,7 @@ if [[ -x /usr/local/bin/brew ]]; then
   brew upgrade
 
   brew tap caskroom/versions
+  brew tap caskroom/fonts
   brew tap thoughtbot/formulae
   brew tap homebrew/dupes
   brew tap homebrew/versions
@@ -50,6 +51,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "dropbox"
     "flash"
     "flux"
+    "font-hack"
     "iterm2"
     "java"
     "mac2imgur"
