@@ -1,0 +1,9 @@
+# List of Mac AppStore apps, just to remind myself
+
+1password
+alternote
+byword
+forklift
+shazam
+telegram
+wunderlist
