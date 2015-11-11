@@ -7,8 +7,6 @@ if [[ -x /usr/local/bin/brew ]]; then
   brew tap caskroom/versions
   brew tap caskroom/fonts
   brew tap thoughtbot/formulae
-  brew tap homebrew/dupes
-  brew tap homebrew/versions
 
   declare -a brews=(
     "caskroom/cask/brew-cask"
