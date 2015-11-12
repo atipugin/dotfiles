@@ -15,6 +15,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "go"
     "grc"
     "mackup"
+    "node"
     "python"
     "rbenv"
     "rcm"
