@@ -20,7 +20,7 @@ export GOPATH=$HOME/.go
 export PATH=$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin
 
 # Configure default editor
-export EDITOR=/usr/local/bin/subl
+export EDITOR=/usr/local/bin/mvim
 
 # Aliases
 # ---------------------------------------
