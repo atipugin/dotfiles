@@ -18,6 +18,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'mhinz/vim-startify'
+Plugin 'bling/vim-airline'
 
 call vundle#end()
 filetype plugin indent on
