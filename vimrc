@@ -25,6 +25,7 @@ filetype plugin indent on
 
 set noswapfile
 set t_Co=256
+set autowrite
 
 syntax on
 colorscheme Tomorrow-Night
@@ -40,5 +41,12 @@ set expandtab
 set cursorline
 hi CursorLine cterm=none ctermbg=23 ctermfg=none
 
+set ruler
+set textwidth=80
+set colorcolumn=+1
+
 map <C-n> :NERDTreeToggle<CR>
 map <F5> :sort<CR>
+
+autocmd FileType ruby map <buffer> <Leader>b :!ruby %<CR>
+autocmd FileType go map <buffer> <Leader>b :!go run %<CR>
