@@ -27,6 +27,7 @@ filetype plugin indent on
 set noswapfile
 set t_Co=256
 set autowrite
+set laststatus=2
 
 syntax on
 colorscheme Tomorrow-Night
@@ -45,6 +46,11 @@ hi CursorLine cterm=none ctermbg=23 ctermfg=none
 set ruler
 set textwidth=80
 set colorcolumn=+1
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
 
 map <C-n> :NERDTreeToggle<CR>
 map <F5> :sort<CR>
