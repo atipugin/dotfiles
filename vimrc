@@ -52,8 +52,17 @@ set incsearch
 set ignorecase
 set smartcase
 
+set scrolloff=2
+
 map <C-n> :NERDTreeToggle<CR>
 map <F5> :sort<CR>
+
+nmap ; :
+
+nnoremap <Left> :echoe 'Use h'<CR>
+nnoremap <Right> :echoe 'Use l'<CR>
+nnoremap <Up> :echoe 'Use k'<CR>
+nnoremap <Down> :echoe 'Use j'<CR>
 
 autocmd FileType ruby map <buffer> <Leader>b :!ruby %<CR>
 autocmd FileType go map <buffer> <Leader>b :!go run %<CR>
