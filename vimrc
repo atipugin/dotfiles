@@ -20,6 +20,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'mhinz/vim-startify'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()
 filetype plugin indent on
