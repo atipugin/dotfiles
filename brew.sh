@@ -16,6 +16,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "grc"
     "mackup"
     "node"
+    "openssl"
     "python"
     "rbenv"
     "rcm"
@@ -65,7 +66,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     brew cask install $name
   done
 
-  brew link curl --force
+  brew link curl openssl --force
 
   brew cleanup
 fi
