@@ -6,7 +6,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'airblade/vim-gitgutter'
@@ -54,6 +54,8 @@ set ignorecase
 set smartcase
 
 set scrolloff=2
+
+let g:ctrlp_working_path_mode = 0
 
 map <C-n> :NERDTreeToggle<CR>
 map <F5> :sort<CR>
