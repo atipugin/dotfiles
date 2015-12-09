@@ -52,6 +52,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "sublime-text3"
     "the-unarchiver"
     "transmission"
+    "tunnelbear"
     "vagrant"
     "vagrant-manager"
     "virtualbox"
