@@ -1,7 +1,7 @@
 # List of Mac AppStore apps, just to remind myself
 
 1password
-alternote
+simplenote
 byword
 forklift
 shazam
