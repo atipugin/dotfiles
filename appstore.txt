@@ -2,7 +2,6 @@
 
 1password
 simplenote
-byword
 forklift
 shazam
 telegram
