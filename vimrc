@@ -45,8 +45,8 @@ set cursorline
 hi CursorLine cterm=none ctermbg=23 ctermfg=none
 
 set ruler
-set textwidth=80
-set colorcolumn=+1
+set colorcolumn=80
+set wrap
 
 set hlsearch
 set incsearch
