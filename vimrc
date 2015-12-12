@@ -26,6 +26,7 @@ call vundle#end()
 filetype plugin indent on
 
 set noswapfile
+set nobackup
 set t_Co=256
 set autowrite
 set laststatus=2
