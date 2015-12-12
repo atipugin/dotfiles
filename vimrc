@@ -31,7 +31,7 @@ set autowrite
 set laststatus=2
 
 syntax on
-colorscheme Tomorrow-Night
+colorscheme hybrid
 
 set number
 set numberwidth=5
