@@ -67,5 +67,11 @@ nnoremap <Right> :echoe 'Use l'<CR>
 nnoremap <Up> :echoe 'Use k'<CR>
 nnoremap <Down> :echoe 'Use j'<CR>
 
+nnoremap <C-j> :m .+1<CR>
+nnoremap <C-k> :m .-2<CR>
+
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
+
 autocmd FileType ruby map <buffer> <Leader>b :!ruby %<CR>
 autocmd FileType go map <buffer> <Leader>b :!go run %<CR>
