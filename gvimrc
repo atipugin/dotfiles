@@ -1,2 +1,2 @@
-set guifont=Hack:h13
+set guifont=Inconsolata-dz:h13
 set linespace=3

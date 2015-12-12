@@ -33,7 +33,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "dropbox"
     "flash"
     "flux"
-    "font-hack"
+    "font-inconsolata-dz"
     "google-drive"
     "iterm2"
     "java"
