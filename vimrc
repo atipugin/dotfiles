@@ -76,3 +76,5 @@ vnoremap <C-k> :m '<-2<CR>gv=gv
 
 autocmd FileType ruby map <buffer> <Leader>b :!ruby %<CR>
 autocmd FileType go map <buffer> <Leader>b :!go run %<CR>
+
+autocmd BufNewFile,BufRead Gemfile set filetype=ruby
