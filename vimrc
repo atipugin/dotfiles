@@ -21,6 +21,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()
 filetype plugin indent on
@@ -57,6 +58,7 @@ set smartcase
 set scrolloff=2
 
 let g:ctrlp_working_path_mode = 0
+let g:syntastic_ruby_checkers = ['rubocop', 'mri']
 
 map <C-n> :NERDTreeToggle<CR>
 map <F5> :sort<CR>
