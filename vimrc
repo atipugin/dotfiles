@@ -22,6 +22,7 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
+Plugin 'Yggdroot/indentLine'
 
 call vundle#end()
 filetype plugin indent on
@@ -61,6 +62,9 @@ let g:ctrlp_working_path_mode = 0
 let g:ctrlp_custom_ignore = 'vendor/bundle'
 
 let g:syntastic_ruby_checkers = ['rubocop', 'mri']
+
+let g:indentLine_color_term = 240
+let g:indentLine_char = '|'
 
 map <C-n> :NERDTreeToggle<CR>
 map <F5> :sort<CR>
