@@ -58,6 +58,8 @@ set smartcase
 set scrolloff=2
 
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_custom_ignore = 'vendor/bundle'
+
 let g:syntastic_ruby_checkers = ['rubocop', 'mri']
 
 map <C-n> :NERDTreeToggle<CR>
