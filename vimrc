@@ -23,6 +23,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'Yggdroot/indentLine'
+Plugin 'tpope/vim-rails'
 
 call vundle#end()
 filetype plugin indent on
