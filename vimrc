@@ -24,6 +24,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'Yggdroot/indentLine'
 Plugin 'tpope/vim-rails'
+Plugin 'slim-template/vim-slim'
 
 call vundle#end()
 filetype plugin indent on
