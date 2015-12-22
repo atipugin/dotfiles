@@ -39,7 +39,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "iterm2"
     "java"
     "mac2imgur"
-    "macvim"
     "mplayerx"
     "navicat-for-postgresql"
     "numi"
