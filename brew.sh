@@ -45,6 +45,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "qlcolorcode"
     "qlmarkdown"
     "qlstephen"
+    "rescuetime"
     "sequel-pro"
     "skype"
     "slack"
