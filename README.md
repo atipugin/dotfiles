@@ -23,7 +23,7 @@ Install necessary brews and apps:
 Install dotfiles:
 
 ```shell
-rcup -d `pwd` -x README.md
+rcup -d `pwd` -x README.md -x appstore.txt -x brew.sh -x osx
 ```
 
 Configure OSX the right way:
