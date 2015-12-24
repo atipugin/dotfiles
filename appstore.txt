@@ -6,3 +6,4 @@ forklift
 shazam
 telegram
 wunderlist
+daisydisk
