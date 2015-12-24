@@ -22,6 +22,9 @@ export PATH=$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin
 # Configure default editor
 export EDITOR=/usr/local/bin/subl
 
+# Set shell
+export SHELL=/usr/local/bin/zsh
+
 # Aliases
 # ---------------------------------------
 
