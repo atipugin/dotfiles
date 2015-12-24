@@ -56,6 +56,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "transmission"
     "tunnelbear"
     "vagrant"
+    "vagrant-manager"
     "virtualbox"
   )
 
