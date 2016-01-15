@@ -30,6 +30,7 @@ if [[ -x /usr/local/bin/brew ]]; then
   )
 
   declare -a casks=(
+    "bartender"
     "caffeine"
     "dropbox"
     "flash"
