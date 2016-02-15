@@ -7,4 +7,3 @@ shazam
 telegram
 wunderlist
 daisydisk
-byword
