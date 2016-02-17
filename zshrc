@@ -16,7 +16,7 @@ export CDPATH=$HOME/Code:$CDPATH
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 
 # Setup Go
-export GOPATH=$HOME/.go
+export GOPATH=$HOME/Code/go
 export PATH=$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin
 
 # Configure default editor
