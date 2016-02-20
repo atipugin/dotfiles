@@ -30,6 +30,8 @@ export SHELL=/usr/local/bin/zsh
 
 alias t=touch
 alias zshconfig="$EDITOR $HOME/.zshrc"
+alias dc=docker-compose
+alias dm=docker-machine
 
 # Enable completion
 # ---------------------------------------
