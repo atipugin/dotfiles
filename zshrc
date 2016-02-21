@@ -60,3 +60,16 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Set Docker env
 eval "$(docker-machine env dev)"
+
+# Functions
+# ---------------------------------------
+
+# Create a new git repo
+makerepo() {
+  mkdir -p $1
+  cd $1
+  git init
+  touch .gitignore
+  git add .
+  git commit -m "First commit"
+}
