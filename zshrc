@@ -65,7 +65,7 @@ eval "$(docker-machine env dev)"
 # ---------------------------------------
 
 # Create a new git repo
-makerepo() {
+mkrepo() {
   mkdir -p $1
   cd $1
   git init
