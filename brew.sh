@@ -50,6 +50,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "qlmarkdown"
     "qlstephen"
     "rescuetime"
+    "robomongo"
     "sequel-pro"
     "skype"
     "slack"
