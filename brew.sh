@@ -47,6 +47,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "navicat-for-postgresql"
     "numi"
     "qlcolorcode"
+    "qlimagesize"
     "qlmarkdown"
     "qlstephen"
     "rescuetime"
