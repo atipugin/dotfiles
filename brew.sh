@@ -3,13 +3,13 @@
 if [[ -x /usr/local/bin/brew ]]; then
   brew update
   brew upgrade
-
+  
+  brew tap caskroom/cask
   brew tap caskroom/versions
   brew tap caskroom/fonts
   brew tap thoughtbot/formulae
 
   declare -a brews=(
-    "caskroom/cask/brew-cask"
     "curl"
     "docker"
     "docker-compose"
