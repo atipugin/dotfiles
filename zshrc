@@ -18,6 +18,7 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 # Setup Go
 export GOPATH=$HOME/Code/go
 export PATH=$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin
+export CDPATH=$GOPATH/src:$CDPATH
 
 # Configure default editor
 export EDITOR=/usr/local/bin/subl
@@ -44,7 +45,7 @@ compinit
 # Ruby/rbenv/etc
 # ---------------------------------------
 
-if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Imports
 # ---------------------------------------
@@ -59,7 +60,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [[ -f $HOME/.zshrc.local ]] && source $HOME/.zshrc.local
 
 # Set Docker env
-eval "$(docker-machine env dev)"
+eval "$(docker-machine env docker-dev)"
 
 # Functions
 # ---------------------------------------
