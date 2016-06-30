@@ -3,7 +3,7 @@
 if [[ -x /usr/local/bin/brew ]]; then
   brew update
   brew upgrade
-  
+
   brew tap caskroom/cask
   brew tap caskroom/versions
   brew tap caskroom/fonts
@@ -42,9 +42,9 @@ if [[ -x /usr/local/bin/brew ]]; then
     "google-drive"
     "iterm2"
     "java"
+    "launchrocket"
     "mac2imgur"
     "mplayerx"
-    "navicat-for-postgresql"
     "numi"
     "qlcolorcode"
     "qlimagesize"
