@@ -59,9 +59,6 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Load local Zsh settings if exists
 [[ -f $HOME/.zshrc.local ]] && source $HOME/.zshrc.local
 
-# Set Docker env
-eval "$(docker-machine env docker-dev)"
-
 # Functions
 # ---------------------------------------
 
