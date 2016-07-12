@@ -42,7 +42,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "google-drive"
     "iterm2"
     "java"
-    "launchrocket"
     "mac2imgur"
     "mplayerx"
     "numi"
@@ -62,7 +61,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "transmission"
     "tunnelbear"
     "vagrant"
-    "vagrant-manager"
     "virtualbox"
   )
 
