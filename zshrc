@@ -51,7 +51,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # ---------------------------------------
 
 if [[ -x "$(command -v docker-machine)" && -f $HOME/.dockerenv ]]; then
-  docker-machine env $(cat $HOME/.dockerenv)
+  eval $(docker-machine env $(cat $HOME/.dockerenv))
 fi
 
 # Imports
