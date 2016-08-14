@@ -22,7 +22,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "rcm"
     "ruby-build"
     "ssh-copy-id"
-    "tmux"
     "wget"
     "zsh"
     "zsh-completions"
