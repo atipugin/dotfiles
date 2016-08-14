@@ -1,7 +1,6 @@
 # List of Mac AppStore apps, just to remind myself
 
 1password
-simplenote
 forklift
 shazam
 telegram
