@@ -17,7 +17,7 @@ alias bottom-left-corner move ${sox};${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
 alias bottom-right-corner move ${sox}+${ssx}/2;${soy}+${ssy}/2 ${ssx}/2;${ssy}/2
 
 alias app-editor 'Sublime Text'
-alias app-terminal 'iTerm'
+alias app-terminal 'iTerm2'
 alias app-git 'SourceTree'
 alias app-browser 'Google Chrome'
 
