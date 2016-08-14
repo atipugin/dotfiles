@@ -11,9 +11,6 @@ if [[ -x /usr/local/bin/brew ]]; then
 
   declare -a brews=(
     "curl"
-    "docker"
-    "docker-compose"
-    "docker-machine"
     "git"
     "go"
     "grc"
