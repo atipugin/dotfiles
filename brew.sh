@@ -49,7 +49,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "slack"
     "slate"
     "sourcetree"
-    "sublime-text3"
+    "sublime-text"
     "the-unarchiver"
     "transmission"
     "tunnelbear"
@@ -65,7 +65,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     brew cask install $name
   done
 
-  brew link curl openssl --force
+  brew link curl --force
 
   brew cleanup
 fi
