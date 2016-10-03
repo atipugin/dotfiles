@@ -50,6 +50,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "slate"
     "sourcetree"
     "sublime-text"
+    "telegram"
     "the-unarchiver"
     "transmission"
     "tunnelbear"
