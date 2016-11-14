@@ -33,6 +33,7 @@ alias t=touch
 alias zshconfig="$EDITOR $HOME/.zshrc"
 alias dc=docker-compose
 alias dm=docker-machine
+alias mkdir="mkdir -p"
 
 # Enable completion
 # ---------------------------------------
