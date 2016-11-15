@@ -29,7 +29,7 @@ export SHELL=/usr/local/bin/zsh
 # Aliases
 # ---------------------------------------
 
-alias t=touch
+alias t=mkfile
 alias zshconfig="$EDITOR $HOME/.zshrc"
 alias dc=docker-compose
 alias dm=docker-machine
