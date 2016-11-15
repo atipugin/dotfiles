@@ -79,3 +79,13 @@ mkrepo() {
   git add .
   git commit -m "First commit"
 }
+
+# Create a file within any dir
+mkfile() {
+  local base_path=$(dirname $1)
+  if [[ ! -d base_path ]]; then
+    mkdir -p $base_path
+  fi
+
+  touch $1
+}
