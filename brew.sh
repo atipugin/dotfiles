@@ -53,7 +53,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "telegram"
     "the-unarchiver"
     "transmission"
-    "tunnelblick"
+    "tunnelbear"
     "vagrant"
     "virtualbox"
   )
