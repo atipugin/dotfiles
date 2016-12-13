@@ -33,7 +33,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "caffeine"
     "cloud"
     "dropbox"
-    "flash"
     "flux"
     "font-hack"
     "google-drive"
