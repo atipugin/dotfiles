@@ -41,7 +41,7 @@ alias mkdir="mkdir -p"
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 autoload -U compinit
-compinit
+compinit -i
 
 # Ruby/rbenv/etc
 # ---------------------------------------
