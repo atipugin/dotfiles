@@ -10,6 +10,7 @@ if [[ -x /usr/local/bin/brew ]]; then
   brew tap thoughtbot/formulae
 
   declare -a brews=(
+    "ansible"
     "curl"
     "git"
     "go"
@@ -54,6 +55,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "transmission"
     "tunnelbear"
     "vagrant"
+    "vagrant-manager"
     "virtualbox"
   )
 
