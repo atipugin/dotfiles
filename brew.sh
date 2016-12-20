@@ -36,6 +36,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "dropbox"
     "flux"
     "font-hack"
+    "google-chrome"
     "google-drive"
     "iterm2"
     "java"
