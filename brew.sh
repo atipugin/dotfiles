@@ -54,7 +54,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "telegram"
     "the-unarchiver"
     "transmission"
-    "tunnelbear"
     "vagrant"
     "vagrant-manager"
     "virtualbox"
