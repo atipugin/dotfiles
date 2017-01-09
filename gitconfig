@@ -23,7 +23,3 @@ prune = true
 
 [merge]
 ff = only
-
-[alias]
-it = "!git init && git commit -m 'init' --allow-empty"
-please = push --force-with-lease
