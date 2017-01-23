@@ -4,7 +4,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME='ys'
-plugins=(git brew sublime bundler rails vagrant)
+plugins=(git sublime bundler rails vagrant)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -47,13 +47,6 @@ compinit -i
 # ---------------------------------------
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-# Docker
-# ---------------------------------------
-
-if [[ -x "$(command -v docker-machine)" && -f $HOME/.dockerenv ]]; then
-  eval $(docker-machine env $(cat $HOME/.dockerenv))
-fi
 
 # Imports
 # ---------------------------------------
