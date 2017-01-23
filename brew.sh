@@ -12,6 +12,8 @@ if [[ -x /usr/local/bin/brew ]]; then
   declare -a brews=(
     "ansible"
     "curl"
+    "docker"
+    "docker-compose"
     "git"
     "go"
     "grc"
@@ -51,7 +53,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "slate"
     "sourcetree"
     "sublime-text"
-    "telegram"
+    "telegram-desktop"
     "the-unarchiver"
     "transmission"
     "vagrant"
