@@ -10,7 +10,6 @@ if [[ -x /usr/local/bin/brew ]]; then
   brew tap thoughtbot/formulae
 
   declare -a brews=(
-    "ansible"
     "curl"
     "git"
     "go"
@@ -33,7 +32,6 @@ if [[ -x /usr/local/bin/brew ]]; then
     "bartender"
     "caffeine"
     "cloud"
-    "docker"
     "dropbox"
     "flux"
     "font-hack"
@@ -48,16 +46,12 @@ if [[ -x /usr/local/bin/brew ]]; then
     "qlmarkdown"
     "qlstephen"
     "skype"
-    "slack"
     "slate"
     "sourcetree"
     "sublime-text"
     "telegram-desktop"
     "the-unarchiver"
     "transmission"
-    "vagrant"
-    "vagrant-manager"
-    "virtualbox"
   )
 
   for name in "${brews[@]}"; do
