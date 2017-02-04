@@ -52,7 +52,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # ---------------------------------------
 
 # Use GRC
-source "`brew --prefix`/etc/grc.bashrc"
+source "`brew --prefix`/etc/grc.zsh"
 
 # Use zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

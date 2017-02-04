@@ -13,7 +13,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "curl"
     "git"
     "go"
-    "grc"
+    "--HEAD grc"
     "mackup"
     "node"
     "openssl"
