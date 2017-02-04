@@ -31,7 +31,6 @@ if [[ -x /usr/local/bin/brew ]]; then
   declare -a casks=(
     "bartender"
     "caffeine"
-    "cloud"
     "dropbox"
     "flux"
     "font-hack"
@@ -39,6 +38,7 @@ if [[ -x /usr/local/bin/brew ]]; then
     "google-drive"
     "iterm2"
     "java"
+    "mac2imgur"
     "mplayerx"
     "numi"
     "qlcolorcode"
