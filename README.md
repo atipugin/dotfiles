@@ -24,7 +24,7 @@ brew bundle
 Install dotfiles:
 
 ```shell
-rcup -d `pwd` -x README.md -x Brewfile -x osx.sh -x post_install.sh
+rcup -d `pwd`/files
 ```
 
 Configure OSX the right way:
