@@ -4,7 +4,8 @@ My little collection of useful dotfiles.
 
 ## Requirements
 
-First things first, install [Homebrew](http://brew.sh).
+- [Homebrew](http://brew.sh)
+- [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)
 
 ## Install
 
@@ -17,13 +18,13 @@ git clone git://github.com/atipugin/dotfiles.git ~/.dotfiles
 Install necessary brews and apps:
 
 ```shell
-./brew.sh
+brew bundle
 ```
 
 Install dotfiles:
 
 ```shell
-rcup -d `pwd` -x README.md -x appstore.txt -x brew.sh -x osx
+rcup -d `pwd` -x README.md -x Brewfile -x osx
 ```
 
 Configure OSX the right way:

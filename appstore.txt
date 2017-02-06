@@ -1,7 +1,0 @@
-# List of Mac AppStore apps, just to remind myself
-
-1password
-forklift
-wunderlist
-daisydisk
-monit
