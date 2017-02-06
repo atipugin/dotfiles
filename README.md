@@ -12,7 +12,7 @@ My little collection of useful dotfiles.
 Clone this repo to your machine:
 
 ```shell
-git clone git://github.com/atipugin/dotfiles.git ~/.dotfiles
+git clone git://github.com/atipugin/dotfiles.git ~/.dotfiles; cd ~/.dotfiles
 ```
 
 Install necessary brews and apps:
