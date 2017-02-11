@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# 1. Install Homebrew
+if ! command -v brew >/dev/null; then
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# 2. Install Homebrew Bundle
+brew tap Homebrew/bundle
+
+# 3. Clone the repo
+dir=$HOME/.dotfiles
+if [[ ! -d "$dir" ]]; then
+  git clone git@github.com:atipugin/dotfiles.git $dir
+fi
+
+# 4. Install brews and apps
+brew bundle --file=$dir/Brewfile
+
+# 5. Install dotfiles
+rcup -d $dir/files
