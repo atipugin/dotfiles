@@ -2,33 +2,10 @@
 
 My little collection of useful dotfiles.
 
-## Requirements
-
-- [Homebrew](http://brew.sh)
-- [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)
-
 ## Install
 
-Clone this repo to your machine:
+Simply run following command:
 
 ```shell
-git clone git://github.com/atipugin/dotfiles.git ~/.dotfiles; cd ~/.dotfiles
-```
-
-Install necessary brews and apps:
-
-```shell
-brew bundle
-```
-
-Install dotfiles:
-
-```shell
-rcup -d `pwd`/files
-```
-
-Configure OSX the right way:
-
-```shell
-./osx.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/atipugin/dotfiles/master/install)"
 ```

@@ -19,3 +19,6 @@ brew bundle --file=$dir/Brewfile
 
 # 5. Install dotfiles
 rcup -d $dir/files
+
+# 6. Configure OSX
+$dir/osx
