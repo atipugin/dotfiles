@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Ask for sudo and keep it alive
 sudo -v
