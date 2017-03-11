@@ -25,7 +25,6 @@ brew 'zsh-syntax-highlighting'
 cask 'bartender'
 cask 'caffeine'
 cask 'cloud'
-cask 'docker'
 cask 'dropbox'
 cask 'flux'
 cask 'font-fira-mono'
@@ -45,9 +44,6 @@ cask 'sublime-text'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'transmission'
-cask 'vagrant'
-cask 'vagrant-manager'
-cask 'virtualbox'
 
 mas '1Password', id: 443987910
 mas 'DaisyDisk', id: 411643860
