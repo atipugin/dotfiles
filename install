@@ -18,7 +18,7 @@ fi
 brew bundle --file=$dir/Brewfile
 
 # 5. Install dotfiles
-rcup -d $dir/files
+env RCRC=$dir/files/rcrc rcup
 
 # 6. Configure OSX
 $dir/osx
