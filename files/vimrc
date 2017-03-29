@@ -1,0 +1,59 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-airline'
+Plug 'chriskempson/base16-vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'ervandew/supertab'
+Plug 'honza/vim-snippets'
+Plug 'jiangmiao/auto-pairs'
+Plug 'kien/ctrlp.vim'
+Plug 'rking/ag.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'sirver/ultisnips'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
+Plug 'xuyuanp/nerdtree-git-plugin'
+
+call plug#end()
+
+colorscheme base16-eighties
+
+set number
+set numberwidth=5
+
+set nobackup
+set nowritebackup
+set noswapfile
+
+set ruler
+set colorcolumn=80
+
+set wrap
+set cpo=n
+
+set laststatus=2
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+set autoindent
+set smartindent
+
+set complete=.,b,u,]
+set wildmenu
+
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+
+let g:NERDSpaceDelims = 1
+
+map <C-n> :NERDTreeToggle<CR>
+
+vmap <F5> :sort<CR>
