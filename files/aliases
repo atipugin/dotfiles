@@ -5,6 +5,3 @@ alias mkdir="mkdir -p"
 # Docker
 alias dc=docker-compose
 alias dm=docker-machine
-
-# Include custom aliases
-[[ -f $HOME/.aliases.local ]] && source $HOME/.aliases.local
