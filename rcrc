@@ -1,1 +1,1 @@
-EXCLUDES="Brewfile install osx README.md"
+EXCLUDES="install osx README.md"
