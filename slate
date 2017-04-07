@@ -28,10 +28,10 @@ layout 1coding ${app-terminal}:REPEAT ${full}
 layout 1coding ${app-git}:REPEAT ${full}
 layout 1coding ${app-browser}:REPEAT ${full}
 
-layout 2coding ${app-editor}:REPEAT ${left-half} 0
-layout 2coding ${app-terminal}:REPEAT ${right-half} 0
-layout 2coding ${app-browser}:REPEAT ${full} 0
-layout 2coding ${app-git}:REPEAT ${full} 1
+layout 2coding ${app-editor}:REPEAT ${full} 1
+layout 2coding ${app-terminal}:REPEAT ${full} 0
+layout 2coding ${app-browser}:REPEAT ${full} 1
+layout 2coding ${app-git}:REPEAT ${full} 0
 
 bind f:ctrl;cmd ${full}
 bind h:ctrl;cmd ${left-half}
