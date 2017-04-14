@@ -4,8 +4,9 @@
 sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# ------------------------------------------------------------------------------
 # Misc
-# ---------------------------------------
+# ------------------------------------------------------------------------------
 
 # Disable Resume system-wide
 defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
@@ -16,8 +17,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Disable the "Are you sure you want to open this application?" dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
+# ------------------------------------------------------------------------------
 # Time Machine
-# ---------------------------------------
+# ------------------------------------------------------------------------------
 
 # Disable local backups
 sudo tmutil disablelocal
@@ -25,8 +27,9 @@ sudo tmutil disablelocal
 # Don't offer new disks for backup
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
+# ------------------------------------------------------------------------------
 # Finder
-# ---------------------------------------
+# ------------------------------------------------------------------------------
 
 # Show path bar
 defaults write com.apple.finder ShowPathbar -bool true
