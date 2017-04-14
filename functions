@@ -1,7 +1,7 @@
 # Create a new git repo
 mkrepo() {
-  mkdir -p $1
-  cd $1
+  mkdir -p "$1"
+  cd "$1" || exit
   git init
   touch .gitignore
   git add .
@@ -10,10 +10,11 @@ mkrepo() {
 
 # Create a file within any dir
 mkfile() {
-  local base_path=$(dirname $1)
+  local base_path
+  base_path=$(dirname "$1")
   if [[ ! -d base_path ]]; then
-    mkdir -p $base_path
+    mkdir -p "$base_path"
   fi
 
-  touch $1
+  touch "$1"
 }
