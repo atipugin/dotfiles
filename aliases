@@ -5,3 +5,6 @@ alias mkdir="mkdir -p"
 # Docker
 alias dc=docker-compose
 alias dm=docker-machine
+
+# Misc
+alias weather="curl http://wttr.in/"
