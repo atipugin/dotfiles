@@ -10,15 +10,15 @@ brew tap Homebrew/bundle
 
 # 3. Clone the repo
 dir=$HOME/.dotfiles
-if [[ ! -d "$dir" ]]; then
-  git clone https://github.com/atipugin/dotfiles.git $dir
+if [ ! -d "$dir" ]; then
+  git clone https://github.com/atipugin/dotfiles.git "$dir"
 fi
 
 # 4. Install brews and apps
-brew bundle --file=$dir/Brewfile
+brew bundle --file="$dir/Brewfile"
 
 # 5. Install dotfiles
-env RCRC=$dir/rcrc rcup
+env RCRC="$dir/rcrc" rcup
 
 # 6. Configure OSX
-$dir/osx
+"$dir/osx"
