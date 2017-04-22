@@ -47,4 +47,5 @@ cask 'transmission'
 mas '1Password', id: 443987910
 mas 'DaisyDisk', id: 411643860
 mas 'ForkLift', id: 412448059
+mas 'Newton' id: 1059655371
 mas 'Wunderlist', id: 410628904
