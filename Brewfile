@@ -24,7 +24,7 @@ brew 'zsh-syntax-highlighting'
 
 cask 'bartender'
 cask 'caffeine'
-cask 'cloud'
+cask 'cloudapp'
 cask 'dropbox'
 cask 'font-fira-mono'
 cask 'google-chrome'
