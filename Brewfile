@@ -39,10 +39,10 @@ cask 'qlstephen'
 cask 'skype'
 cask 'slate'
 cask 'sourcetree'
-cask 'sublime-text'
 cask 'telegram-desktop'
 cask 'the-unarchiver'
 cask 'transmission'
+cask 'visual-studio-code'
 
 mas '1Password', id: 443987910
 mas 'DaisyDisk', id: 411643860

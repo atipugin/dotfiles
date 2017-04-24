@@ -8,6 +8,6 @@ export PATH=$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin
 export CDPATH=$GOPATH/src:$CDPATH
 
 # Set default apps
-export EDITOR=/usr/local/bin/subl
+export EDITOR=/usr/local/bin/code
 export SHELL=/usr/local/bin/zsh
 export PAGER="less -X"
