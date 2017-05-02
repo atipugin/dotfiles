@@ -1,6 +1,7 @@
 EditorConfig.EditorConfig
 PKief.material-icon-theme
 Tyriar.sort-lines
+eamodio.gitlens
 lukehoban.Go
 rebornix.Ruby
 richie5um2.vscode-sort-json
