@@ -1,8 +1,8 @@
 EditorConfig.EditorConfig
+Equinusocio.vsc-material-theme
 PKief.material-icon-theme
 PeterJausovec.vscode-docker
 Tyriar.sort-lines
-bungcip.better-toml
 dbankier.vscode-quick-select
 eamodio.gitlens
 karunamurti.rspec-snippets
@@ -13,4 +13,3 @@ rebornix.Ruby
 richie5um2.vscode-sort-json
 sianglim.slim
 sporto.rails-go-to-spec
-zhuangtongfa.Material-theme
