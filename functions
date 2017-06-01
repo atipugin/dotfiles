@@ -18,3 +18,5 @@ mkfile() {
 
   touch "$1"
 }
+
+[[ -f ~/.functions.local ]] && source ~/.functions.local
