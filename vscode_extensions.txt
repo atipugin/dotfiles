@@ -7,6 +7,8 @@ dbankier.vscode-quick-select
 eamodio.gitlens
 karunamurti.rspec-snippets
 lukehoban.Go
+mrmlnc.vscode-csscomb
+mrmlnc.vscode-duplicate
 ms-vscode.sublime-keybindings
 noku.rails-run-spec-vscode
 rebornix.Ruby
