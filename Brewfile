@@ -47,7 +47,6 @@ cask 'transmission'
 cask 'visual-studio-code'
 
 mas '1Password', id: 443987910
-mas 'Bear', id: 1091189122
 mas 'DaisyDisk', id: 411643860
 mas 'ForkLift', id: 412448059
 mas 'Newton', id: 1059655371
