@@ -28,6 +28,7 @@ cask 'caffeine'
 cask 'cloudapp'
 cask 'dropbox'
 cask 'font-fira-code'
+cask 'forklift'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'java'
@@ -48,5 +49,4 @@ cask 'visual-studio-code'
 
 mas '1Password', id: 443987910
 mas 'DaisyDisk', id: 411643860
-mas 'ForkLift', id: 412448059
 mas 'Things 3', id: 904280696
