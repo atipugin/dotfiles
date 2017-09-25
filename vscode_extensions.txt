@@ -3,6 +3,8 @@ Equinusocio.vsc-material-theme
 PKief.material-icon-theme
 PeterJausovec.vscode-docker
 Tyriar.sort-lines
+alefragnani.Bookmarks
+dbaeumer.vscode-eslint
 dbankier.vscode-quick-select
 eamodio.gitlens
 karunamurti.rspec-snippets
