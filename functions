@@ -20,3 +20,8 @@ mkfile() {
 }
 
 [[ -f ~/.functions.local ]] && source ~/.functions.local
+
+# Get my ip address
+myip() {
+  dig +short myip.opendns.com @resolver1.opendns.com
+}
