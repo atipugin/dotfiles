@@ -24,6 +24,7 @@ brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 
 cask 'bartender'
+cask 'bitbar'
 cask 'caffeine'
 cask 'cloudapp'
 cask 'dropbox'
