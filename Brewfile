@@ -50,4 +50,5 @@ cask 'visual-studio-code'
 
 mas '1Password', id: 443987910
 mas 'DaisyDisk', id: 411643860
+mas 'Gestimer', id: 990588172
 mas 'Things 3', id: 904280696
