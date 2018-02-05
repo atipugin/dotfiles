@@ -5,6 +5,7 @@ name = Alexander Tipugin
 [core]
 autocrlf = input
 excludesfile = ~/.gitignore_global
+pager = diff-so-fancy | less --tabs=4 -RFX
 
 [color]
 ui = auto

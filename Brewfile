@@ -4,6 +4,7 @@ tap 'caskroom/versions'
 tap 'thoughtbot/formulae'
 
 brew 'curl'
+brew 'diff-so-fancy'
 brew 'git'
 brew 'go'
 brew 'grc', args: ['HEAD']
