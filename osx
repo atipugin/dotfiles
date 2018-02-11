@@ -36,9 +36,3 @@ defaults write com.apple.finder ShowPathbar -bool true
 
 # Search in current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
-
-# ------------------------------------------------------------------------------
-# BitBar
-# ------------------------------------------------------------------------------
-
-defaults write com.matryer.BitBar pluginsDirectory $HOME/.bitbar/plugins-enabled
