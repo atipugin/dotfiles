@@ -19,9 +19,9 @@ mkfile() {
   touch "$1"
 }
 
-[[ -f ~/.functions.local ]] && source ~/.functions.local
-
 # Get my ip address
 myip() {
   dig +short myip.opendns.com @resolver1.opendns.com
 }
+
+[[ -f ~/.functions.local ]] && source ~/.functions.local
