@@ -8,6 +8,7 @@ brew 'diff-so-fancy'
 brew 'git'
 brew 'go'
 brew 'grc', args: ['HEAD']
+brew 'httpie'
 brew 'mackup'
 brew 'mas'
 brew 'node'
