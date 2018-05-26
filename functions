@@ -9,7 +9,7 @@ mkrepo() {
 }
 
 # Create a file within any dir
-mkfile() {
+touch_p() {
   local base_path
   base_path=$(dirname "$1")
   if [[ ! -d base_path ]]; then

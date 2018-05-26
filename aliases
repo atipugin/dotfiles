@@ -1,5 +1,5 @@
 # File helpers
-alias t=mkfile
+alias t=touch_p
 alias mkdir="mkdir -p"
 
 # Docker
