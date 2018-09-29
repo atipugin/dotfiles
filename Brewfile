@@ -31,7 +31,6 @@ cask 'cloudapp'
 cask 'dropbox'
 cask 'font-fira-code'
 cask 'forklift'
-cask 'github'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'java'
@@ -48,8 +47,6 @@ cask 'the-unarchiver'
 cask 'transmission'
 cask 'visual-studio-code'
 
-mas '1Password', id: 443987910
 mas 'DaisyDisk', id: 411643860
 mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
-mas 'Things 3', id: 904280696
