@@ -10,7 +10,6 @@ brew 'go'
 brew 'grc', args: ['HEAD']
 brew 'httpie'
 brew 'mackup'
-brew 'mas'
 brew 'node'
 brew 'openssl'
 brew 'p7zip'
@@ -42,11 +41,7 @@ cask 'qlmarkdown'
 cask 'qlstephen'
 cask 'skype'
 cask 'slack'
-cask 'telegram'
 cask 'the-unarchiver'
+cask 'ticktick'
 cask 'transmission'
 cask 'visual-studio-code'
-
-mas 'DaisyDisk', id: 411643860
-mas 'Gestimer', id: 990588172
-mas 'Magnet', id: 441258766
