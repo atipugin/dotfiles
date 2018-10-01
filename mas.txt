@@ -1,4 +1,5 @@
 1Password 7
+Caffeinated
 DaisyDisk
 Gestimer
 Magnet
