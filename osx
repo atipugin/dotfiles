@@ -21,7 +21,10 @@ defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write com.apple.LaunchServices LSQuarantine -bool false
 
 # Mojave: Enable font smoothing (https://github.com/Microsoft/vscode/issues/51132)
-defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool false
+
+# Mojave: Disable screenshot floating thumbnail
+defaults write com.apple.screencapture show-thumbnail -bool false
 
 # ------------------------------------------------------------------------------
 # Time Machine
