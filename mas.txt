@@ -2,4 +2,5 @@
 DaisyDisk
 Gestimer
 Magnet
+SnippetsLab
 Telegram
