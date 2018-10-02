@@ -51,4 +51,3 @@ mas 'DaisyDisk', id: 411643860
 mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
 mas 'Telegram', id: 747648890
-mas 'TickTick', id: 966085870
