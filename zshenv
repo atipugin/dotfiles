@@ -11,3 +11,6 @@ export CDPATH=$GOPATH/src:$CDPATH
 export EDITOR=/usr/local/bin/code
 export SHELL=/usr/local/bin/zsh
 export PAGER="less -X"
+
+# Load local env vars
+[[ -f ~/.zshenv.local ]] && source ~/.zshenv.local
