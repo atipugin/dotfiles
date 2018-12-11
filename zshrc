@@ -1,7 +1,7 @@
 # oh-my-zsh
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME='ys'
-plugins=(git bundler rails)
+plugins=(git bundler rails docker kubectl)
 source $ZSH/oh-my-zsh.sh
 
 # zsh-completions
