@@ -7,6 +7,7 @@ tap 'thoughtbot/formulae'
 brew 'curl'
 brew 'diff-so-fancy'
 brew 'git'
+brew 'gnupg'
 brew 'go'
 brew 'grc', args: ['HEAD']
 brew 'httpie'

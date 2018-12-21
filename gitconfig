@@ -1,6 +1,7 @@
 [user]
 email = atipugin@gmail.com
 name = Alexander Tipugin
+signingkey = 57FB31F3E6261E3AA69E9A5FB4FDCDB7E6BE85AD
 
 [core]
 autocrlf = input
