@@ -4,6 +4,7 @@ tap 'caskroom/versions'
 tap 'mas-cli/tap', pin: true
 tap 'thoughtbot/formulae'
 
+brew 'autojump'
 brew 'curl'
 brew 'diff-so-fancy'
 brew 'git'
