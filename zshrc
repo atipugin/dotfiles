@@ -8,7 +8,7 @@ source $ZSH/oh-my-zsh.sh
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which rbenv >/dev/null; then eval "$(rbenv init -)"; fi
 
 # grc
 source /usr/local/etc/grc.zsh
