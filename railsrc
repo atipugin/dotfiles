@@ -1,1 +1,1 @@
--T -d postgresql --skip-yarn --skip-action-cable --skip-listen --skip-turbolinks --skip-spring
+-T -d postgresql --skip-yarn --skip-action-cable --skip-listen --skip-turbolinks --skip-spring --skip-active-storage --skip-coffee
