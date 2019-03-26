@@ -29,6 +29,7 @@ brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 
 cask 'alfred'
+cask 'appcleaner'
 cask 'bartender'
 cask 'cloudapp'
 cask 'docker'
@@ -38,13 +39,14 @@ cask 'forklift'
 cask 'google-chrome'
 cask 'gpg-suite'
 cask 'iina'
+cask 'imageoptim'
 cask 'iterm2'
 cask 'java'
+cask 'nightowl'
 cask 'numi'
 cask 'qlcolorcode'
 cask 'qlmarkdown'
 cask 'qlstephen'
-cask 'slack'
 cask 'sourcetree'
 cask 'the-unarchiver'
 cask 'transmission'
@@ -55,4 +57,6 @@ mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
 mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
+mas 'Reeder 3', id: 880001334
 mas 'Telegram', id: 747648890
+mas 'Things 3', id: 904280696
