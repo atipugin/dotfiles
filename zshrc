@@ -10,6 +10,9 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 # rbenv
 if which rbenv >/dev/null; then eval "$(rbenv init -)"; fi
 
+# direnv
+eval "$(direnv hook zsh)"
+
 # grc
 source /usr/local/etc/grc.zsh
 
