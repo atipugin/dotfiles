@@ -6,9 +6,6 @@ alias mkdir="mkdir -p"
 alias dc=docker-compose
 alias dm=docker-machine
 
-# Misc
-alias weather="curl http://wttr.in/"
-
 # Visual Studio Code
 alias vscode-backup-ext="code --list-extensions > ~/.vscode_extensions.txt"
 alias vscode-restore-ext="cat ~/.vscode_extensions.txt | xargs -L1 code --install-extension"
