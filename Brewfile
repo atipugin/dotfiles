@@ -59,6 +59,6 @@ mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
 mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
-mas 'Reeder 3', id: 880001334
+mas 'Reeder', id: 1449412482
 mas 'Telegram', id: 747648890
-mas 'Things 3', id: 904280696
+mas 'Things', id: 904280696
