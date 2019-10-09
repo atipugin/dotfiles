@@ -7,7 +7,6 @@ tap 'thoughtbot/formulae'
 brew 'autojump'
 brew 'curl'
 brew 'diff-so-fancy'
-brew 'dirnev'
 brew 'git'
 brew 'go'
 brew 'grc', args: ['HEAD']
