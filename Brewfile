@@ -1,6 +1,6 @@
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 tap 'mas-cli/tap', pin: true
 tap 'thoughtbot/formulae'
 
