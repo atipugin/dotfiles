@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# 0. Install Command Line Tools manually (https://github.com/Homebrew/brew/issues/4996)
-xcode-select --install
-
 # 1. Install Homebrew
 if ! command -v brew >/dev/null; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
