@@ -1,7 +1,6 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
-tap 'mas-cli/tap', pin: true
 tap 'thoughtbot/formulae'
 
 brew 'autojump'
@@ -12,6 +11,7 @@ brew 'go'
 brew 'grc'
 brew 'httpie'
 brew 'mackup'
+brew 'mas'
 brew 'node'
 brew 'openssl'
 brew 'p7zip'
