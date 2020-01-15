@@ -1,6 +1,9 @@
+aaron-bond.better-comments
+alefragnani.project-manager
 atipugin.rails-partial
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
+Gruntfuggly.todo-tree
 ms-vscode.Go
 ms-vscode.sublime-keybindings
 noku.rails-run-spec-vscode
@@ -9,6 +12,6 @@ rebornix.ruby
 richie5um2.vscode-sort-json
 sianglim.slim
 sporto.rails-go-to-spec
-Tyriar.sort-lines
 waderyan.gitblame
-zhuangtongfa.Material-theme
+wingrunr21.vscode-ruby
+zhuangtongfa.material-theme
