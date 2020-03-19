@@ -1,6 +1,9 @@
 aaron-bond.better-comments
 alefragnani.project-manager
+arcticicestudio.nord-visual-studio-code
 atipugin.rails-partial
+bungcip.better-toml
+DavidAnson.vscode-markdownlint
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 Gruntfuggly.todo-tree
@@ -14,4 +17,3 @@ sianglim.slim
 sporto.rails-go-to-spec
 waderyan.gitblame
 wingrunr21.vscode-ruby
-zhuangtongfa.material-theme
