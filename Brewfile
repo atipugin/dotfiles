@@ -38,7 +38,6 @@ cask 'gpg-suite'
 cask 'iina'
 cask 'iterm2'
 cask 'java'
-cask 'numi'
 cask 'sourcetree'
 cask 'the-unarchiver'
 cask 'transmission'
@@ -50,5 +49,6 @@ mas 'DaisyDisk', id: 411643860
 mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
 mas 'Reeder', id: 1449412482
+mas 'Soulver 3', id: 1508732804
 mas 'Telegram', id: 747648890
 mas 'Things', id: 904280696
