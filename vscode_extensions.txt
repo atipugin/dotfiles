@@ -3,6 +3,7 @@ alefragnani.project-manager
 arcticicestudio.nord-visual-studio-code
 atipugin.rails-partial
 bungcip.better-toml
+castwide.solargraph
 DavidAnson.vscode-markdownlint
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
