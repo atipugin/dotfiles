@@ -8,8 +8,8 @@ DavidAnson.vscode-markdownlint
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 foxundermoon.shell-format
+golang.Go
 Gruntfuggly.todo-tree
-ms-vscode.Go
 ms-vscode.sublime-keybindings
 noku.rails-run-spec-vscode
 PKief.material-icon-theme
