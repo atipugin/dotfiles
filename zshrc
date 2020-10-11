@@ -16,6 +16,9 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # z
 source /usr/local/etc/profile.d/z.sh
 
+# rbenv
+eval "$(rbenv init -)"
+
 # etc
 source $HOME/.functions
 source $HOME/.aliases
