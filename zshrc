@@ -13,8 +13,8 @@ source /usr/local/etc/grc.zsh
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# autojump
-source /usr/local/etc/profile.d/autojump.sh
+# z
+source /usr/local/etc/profile.d/z.sh
 
 # etc
 source $HOME/.functions
