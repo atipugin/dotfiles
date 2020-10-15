@@ -2,7 +2,8 @@
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
 
 # Configure Golang
-export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$HOME/Code/go
+export PATH=$(go env GOPATH)/bin:$PATH
 
 # Set default apps
 export EDITOR=/usr/local/bin/code
