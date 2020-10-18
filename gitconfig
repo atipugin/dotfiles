@@ -6,7 +6,7 @@ signingkey = 57FB31F3E6261E3AA69E9A5FB4FDCDB7E6BE85AD
 [core]
 autocrlf = input
 excludesfile = ~/.gitignore_global
-pager = diff-so-fancy | less --tabs=4 -RFX
+pager = delta
 
 [color]
 ui = auto

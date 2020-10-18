@@ -5,7 +5,7 @@ tap 'thoughtbot/formulae'
 
 brew 'asdf'
 brew 'curl'
-brew 'diff-so-fancy'
+brew 'delta'
 brew 'git'
 brew 'grc'
 brew 'httpie'
