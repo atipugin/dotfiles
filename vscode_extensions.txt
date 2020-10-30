@@ -5,10 +5,11 @@ atipugin.rails-partial
 bungcip.better-toml
 castwide.solargraph
 DavidAnson.vscode-markdownlint
+deerawan.vscode-dash
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 foxundermoon.shell-format
-golang.Go
+golang.go
 Gruntfuggly.todo-tree
 ms-vscode.sublime-keybindings
 noku.rails-run-spec-vscode
