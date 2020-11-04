@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+set -e
+
+NOTES_PATH=${NOTES_PATH:-$HOME/Notes}
+
+if [ ! -d "${NOTES_PATH}" ]; then
+  while true; do
+    read -rp "$NOTES_PATH does not exist, create it? (y/n) " yn
+    case $yn in
+    [Yy]*)
+      mkdir -p "$NOTES_PATH"
+      break
+      ;;
+    [Nn]*) exit ;;
+    *) echo "Please answer y or n" ;;
+    esac
+  done
+fi
+
+_file="$NOTES_PATH/$(date +%Y-%m).txt"
+
+if [ $# -gt 0 ]; then
+  printf "%s\n\n" "$*" >>"$_file"
+elif [ -p /dev/stdin ]; then
+  (
+    cat
+    printf "\n\n"
+  ) >>"$_file"
+else
+  eval "$EDITOR" "$_file"
+fi
