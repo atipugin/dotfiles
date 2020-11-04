@@ -22,3 +22,5 @@ eval "$(rbenv init -)"
 # etc
 source $HOME/.functions
 source $HOME/.aliases
+
+export PATH=".git/safe/../../bin:$HOME/.bin:$PATH"
