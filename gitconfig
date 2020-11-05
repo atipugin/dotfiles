@@ -28,3 +28,6 @@ ff = only
 
 [commit]
 gpgsign = true
+
+[delta]
+side-by-side = true
