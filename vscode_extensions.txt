@@ -18,6 +18,7 @@ rebornix.ruby
 richie5um2.vscode-sort-json
 sianglim.slim
 sporto.rails-go-to-spec
+stkb.rewrap
 timonwong.shellcheck
 waderyan.gitblame
 wingrunr21.vscode-ruby
