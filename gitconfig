@@ -31,3 +31,6 @@ gpgsign = true
 
 [delta]
 side-by-side = true
+
+[alias]
+bc = better-clone
