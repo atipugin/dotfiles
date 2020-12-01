@@ -24,3 +24,5 @@ source $HOME/.functions
 source $HOME/.aliases
 
 export PATH=".git/safe/../../bin:$HOME/.bin:$PATH"
+
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
