@@ -4,6 +4,7 @@ tap 'homebrew/cask-versions'
 tap 'thoughtbot/formulae'
 
 brew 'curl'
+brew 'gh'
 brew 'git-delta'
 brew 'git'
 brew 'go'
