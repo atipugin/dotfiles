@@ -1,6 +1,7 @@
-tap 'homebrew/cask'
+tap 'beeftornado/rmtree'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
+tap 'homebrew/cask'
 tap 'thoughtbot/formulae'
 
 brew 'curl'
