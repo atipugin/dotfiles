@@ -1,40 +1,40 @@
 [user]
-email = atipugin@gmail.com
-name = Alexander Tipugin
-signingkey = 57FB31F3E6261E3AA69E9A5FB4FDCDB7E6BE85AD
+  email = atipugin@gmail.com
+  name = Alexander Tipugin
+  signingkey = 57FB31F3E6261E3AA69E9A5FB4FDCDB7E6BE85AD
 
 [core]
-autocrlf = input
-excludesfile = ~/.gitignore_global
-pager = delta
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+  pager = delta
 
 [color]
-ui = auto
+  ui = auto
 
 [push]
-default = current
+  default = current
 
 [credential]
-helper = osxkeychain
+  helper = osxkeychain
 
 [branch]
-autosetuprebase = always
+  autosetuprebase = always
 
 [fetch]
-prune = true
+  prune = true
 
 [merge]
-ff = only
+  ff = only
 
 [commit]
-gpgsign = true
+  gpgsign = true
 
 [delta]
-side-by-side = true
+  side-by-side = true
 
 [alias]
-bc = better-clone
-open = "!git rev-parse --abbrev-ref HEAD | xargs gh repo view --web --branch"
+  bc = better-clone
+  open = "!git rev-parse --abbrev-ref HEAD | xargs gh repo view --web --branch"
 
 [init]
-defaultBranch = main
+  defaultBranch = main
