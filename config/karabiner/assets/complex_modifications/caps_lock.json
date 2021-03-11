@@ -1,0 +1,27 @@
+{
+  "title": "Caps Lock",
+  "rules": [
+    {
+      "manipulators": [
+        {
+          "description": "Map Caps Lock to Esc if pressed alone or to Control if combined w/ other keys",
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "key_code": "left_control",
+              "lazy": true
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
