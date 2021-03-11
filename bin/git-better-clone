@@ -9,4 +9,5 @@ if [ -z "$_repo" ]; then
 fi
 
 _path=$(echo "$_repo" | sed -E "s/^(https:\/\/|git@)//; s/:/\//; s/.git$//")
-git clone "$_repo" "$_path"
+CODE_PATH=${CODE_PATH:-$HOME/Code}
+git clone "$_repo" "$CODE_PATH/$_path"
