@@ -11,16 +11,24 @@ fi
 brew tap Homebrew/bundle
 
 # 3. Clone the repo
-dir=$HOME/.dotfiles
-if [ ! -d "$dir" ]; then
-  git clone https://github.com/atipugin/dotfiles.git "$dir"
+_dir=$HOME/.dotfiles
+if [ ! -d "$_dir" ]; then
+  git clone https://github.com/atipugin/dotfiles.git "$_dir"
 fi
 
 # 4. Install brews and apps
-brew bundle --file="$dir/Brewfile"
+brew bundle --file="$_dir/Brewfile"
 
 # 5. Install dotfiles
-env RCRC="$dir/rcrc" rcup
+env RCRC="$_dir/rcrc" rcup
 
 # 6. Configure OSX
-"$dir/osx"
+"$_dir/osx"
+
+# 7. Configure fish as default shell
+_fish_path=$(which fish)
+if ! grep -q "$_fish_path" /etc/shells; then
+  echo "$_fish_path" | sudo tee -a /etc/shells
+fi
+
+chsh -s "$_fish_path"
