@@ -18,6 +18,9 @@ abbr -a gd git diff
 abbr -a gf git fetch
 abbr -a gho gh repo view --web
 abbr -a gl git pull
+abbr -a gp git push
+abbr -a gpf git push --force
+abbr -a gpfl git push --force-with-lease
 abbr -a gst git status
 abbr -a rc rails c
 abbr -a rgen rails g
