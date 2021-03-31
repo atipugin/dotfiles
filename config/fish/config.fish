@@ -11,6 +11,7 @@ set -g __fish_git_prompt_color_invalidstate red
 abbr -a be bundle exec
 abbr -a ga git add
 abbr -a gb git branch
+abbr -a gbd git branch -d
 abbr -a gc git commit -v
 abbr -a gcb git checkout -b
 abbr -a gco git checkout
