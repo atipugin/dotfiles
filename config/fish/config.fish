@@ -23,6 +23,7 @@ abbr -a gpf git push --force
 abbr -a gpfl git push --force-with-lease
 abbr -a gst git status
 abbr -a rc rails c
+abbr -a rd rails d
 abbr -a rgen rails g
 
 # Alises
