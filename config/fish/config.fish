@@ -16,6 +16,7 @@ abbr -a gc git commit -v
 abbr -a gcb git checkout -b
 abbr -a gco git checkout
 abbr -a gd git diff
+abbr -a gds git diff --staged
 abbr -a gf git fetch
 abbr -a gho gh repo view --web
 abbr -a gl git pull
