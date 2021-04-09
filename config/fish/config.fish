@@ -43,3 +43,4 @@ status --is-interactive; and source (rbenv init - | psub)
 status --is-interactive; and source /usr/local/etc/grc.fish
 
 set -gxp PATH .git/safe/../../bin ~/.bin
+set -gx VISUAL 'code -w'
