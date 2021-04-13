@@ -14,6 +14,7 @@ abbr -a gb git branch
 abbr -a gbd git branch -d
 abbr -a gc git commit -v
 abbr -a gcb git checkout -b
+abbr -a gcl ghq get
 abbr -a gco git checkout
 abbr -a gd git diff
 abbr -a gds git diff --staged

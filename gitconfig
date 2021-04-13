@@ -33,8 +33,10 @@
   side-by-side = true
 
 [alias]
-  bc = better-clone
   open = "!git rev-parse --abbrev-ref HEAD | xargs gh repo view --web --branch"
 
 [init]
   defaultBranch = main
+
+[ghq]
+  root = ~/Code
