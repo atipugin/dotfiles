@@ -6,6 +6,7 @@ tap 'thoughtbot/formulae'
 
 brew 'curl'
 brew 'fish'
+brew 'fzf'
 brew 'gh'
 brew 'ghq'
 brew 'git-delta'
