@@ -52,6 +52,7 @@ cask 'visual-studio-code'
 mas '1Password 7', id: 1333542190
 mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
+mas 'Dato', id: 1470584107
 mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
 mas 'Reeder', id: 1529448980
