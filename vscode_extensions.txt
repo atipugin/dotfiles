@@ -6,6 +6,7 @@ atipugin.rails-partial
 bmalehorn.vscode-fish
 bungcip.better-toml
 castwide.solargraph
+connorshea.vscode-ruby-test-adapter
 DavidAnson.vscode-markdownlint
 deerawan.vscode-dash
 EditorConfig.EditorConfig
@@ -16,6 +17,7 @@ esbenp.prettier-vscode
 foxundermoon.shell-format
 golang.go
 Gruntfuggly.todo-tree
+hbenl.vscode-test-explorer
 malmaud.tmux
 ms-vscode.sublime-keybindings
 noku.rails-run-spec-vscode
