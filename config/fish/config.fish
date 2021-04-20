@@ -21,9 +21,13 @@ abbr -a gds git diff --staged
 abbr -a gf git fetch
 abbr -a gho gh repo view --web
 abbr -a gl git pull
+abbr -a glog git log --oneline --decorate --graph
 abbr -a gp git push
 abbr -a gpf git push --force
 abbr -a gpfl git push --force-with-lease
+abbr -a grb git rebase
+abbr -a grba git rebase --abort
+abbr -a grbc git rebase --continue
 abbr -a gst git status
 abbr -a rc rails c
 abbr -a rd rails d
