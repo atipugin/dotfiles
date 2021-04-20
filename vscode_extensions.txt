@@ -10,15 +10,11 @@ connorshea.vscode-ruby-test-adapter
 DavidAnson.vscode-markdownlint
 deerawan.vscode-dash
 EditorConfig.EditorConfig
-Equinusocio.vsc-community-material-theme
-Equinusocio.vsc-material-theme
-equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 foxundermoon.shell-format
 golang.go
 Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
-malmaud.tmux
 ms-vscode.sublime-keybindings
 noku.rails-run-spec-vscode
 PKief.material-icon-theme
@@ -28,5 +24,6 @@ sianglim.slim
 sporto.rails-go-to-spec
 stkb.rewrap
 timonwong.shellcheck
+Tyriar.sort-lines
 waderyan.gitblame
 wingrunr21.vscode-ruby
