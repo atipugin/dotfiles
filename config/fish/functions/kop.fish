@@ -1,6 +1,6 @@
 function kop
   set port $argv[-1]
-  if ! test -n  "$port"
+  if test -z "$port"
     echo 'no port given'
     return 1
   end
