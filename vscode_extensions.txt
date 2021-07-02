@@ -12,6 +12,7 @@ deerawan.vscode-dash
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 foxundermoon.shell-format
+GitHub.github-vscode-theme
 golang.go
 Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
@@ -27,3 +28,4 @@ timonwong.shellcheck
 Tyriar.sort-lines
 waderyan.gitblame
 wingrunr21.vscode-ruby
+wwm.better-align
