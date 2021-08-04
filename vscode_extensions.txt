@@ -16,6 +16,7 @@ GitHub.github-vscode-theme
 golang.go
 Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
+kaiwood.endwise
 ms-vscode.sublime-keybindings
 noku.rails-run-spec-vscode
 PKief.material-icon-theme
