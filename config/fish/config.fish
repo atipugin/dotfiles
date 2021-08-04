@@ -11,6 +11,7 @@ set -g __fish_git_prompt_color_invalidstate red
 abbr -a be bundle exec
 abbr -a ga git add
 abbr -a gb git branch
+abbr -a gba git branch -a
 abbr -a gbd git branch -d
 abbr -a gc git commit -v
 abbr -a gcb git checkout -b
@@ -19,10 +20,9 @@ abbr -a gco git checkout
 abbr -a gd git diff
 abbr -a gds git diff --staged
 abbr -a gf git fetch
-abbr -a gho gh repo view --web
-abbr -a ghp gh pr view --web
 abbr -a gl git pull
 abbr -a glog git log --oneline --decorate --graph
+abbr -a gm git merge
 abbr -a gp git push
 abbr -a gpf git push --force
 abbr -a gpfl git push --force-with-lease
@@ -38,7 +38,6 @@ abbr -a rgen rails g
 # Alises
 alias g=git
 alias r=rails
-alias v=vim
 
 # https://github.com/gsamokovarov/jump
 status --is-interactive; and source (jump shell fish | psub)

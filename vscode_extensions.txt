@@ -1,6 +1,7 @@
 aaron-bond.better-comments
 alefragnani.Bookmarks
 alefragnani.project-manager
+annsk.alignment
 arcticicestudio.nord-visual-studio-code
 atipugin.rails-partial
 bmalehorn.vscode-fish
@@ -14,7 +15,6 @@ esbenp.prettier-vscode
 foxundermoon.shell-format
 GitHub.github-vscode-theme
 golang.go
-Gruntfuggly.todo-tree
 hbenl.vscode-test-explorer
 kaiwood.endwise
 ms-vscode.sublime-keybindings
@@ -29,4 +29,3 @@ timonwong.shellcheck
 Tyriar.sort-lines
 waderyan.gitblame
 wingrunr21.vscode-ruby
-wwm.better-align
