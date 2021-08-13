@@ -48,5 +48,5 @@ status --is-interactive; and source (rbenv init - | psub)
 # https://github.com/garabik/grc
 status --is-interactive; and source /usr/local/etc/grc.fish
 
-set -gxp PATH .git/safe/../../bin ~/.bin
+set -gxp PATH .git/safe/../../bin ~/.local/bin
 set -gx HOMEBREW_NO_AUTO_UPDATE 1

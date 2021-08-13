@@ -1,0 +1,9 @@
+README.md
+install
+osx
+{{ if (ne .chezmoi.os "darwin") }}
+.Brewfile
+.config/karabiner/
+.finicky.js
+.mackup.cfg
+{{ end }}

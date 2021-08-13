@@ -13,10 +13,10 @@
 
 [push]
   default = current
-
+{{ if (eq .chezmoi.os "darwin") }}
 [credential]
   helper = osxkeychain
-
+{{ end }}
 [branch]
   autosetuprebase = always
 
