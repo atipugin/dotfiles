@@ -13,7 +13,7 @@ function kop
   set pid (lsof -i ":$port" -t)
   if test -z "$pid"
     echo 'port is not used'
-    return
+    return 1
   end
 
   kill "$sig" "$pid"
