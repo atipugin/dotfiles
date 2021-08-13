@@ -10,5 +10,11 @@ function kop
     set sig '-SIGTERM'
   end
 
-  lsof -i ":$port" -t | xargs kill "$sig"
+  set pid (lsof -i ":$port" -t)
+  if test -z "$pid"
+    echo 'port is not used'
+    return
+  end
+
+  kill "$sig" "$pid"
 end
