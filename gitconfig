@@ -37,6 +37,3 @@
 
 [init]
   defaultBranch = main
-
-[ghq]
-  root = ~/Code

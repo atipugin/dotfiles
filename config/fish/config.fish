@@ -50,4 +50,5 @@ status --is-interactive; and source (rbenv init - | psub)
 status --is-interactive; and source (brew --prefix)/etc/grc.fish
 
 set -gxp PATH .git/safe/../../bin ~/.bin
+set -gx GHQ_ROOT ~/Code
 set -gx HOMEBREW_NO_AUTO_UPDATE 1
