@@ -1,3 +1,10 @@
+# Set paths
+fish_add_path ~/.local/bin /opt/homebrew/bin
+
+# Set vars
+set -gx GHQ_ROOT ~/Code
+set -gx HOMEBREW_NO_AUTO_UPDATE 1
+
 # Start fish with no greeting
 set fish_greeting ''
 
@@ -36,7 +43,7 @@ abbr -a rc rails c
 abbr -a rd rails d
 abbr -a rgen rails g
 
-# Alises
+# Aliases
 alias g=git
 alias r=rails
 
@@ -49,6 +56,5 @@ status --is-interactive; and source (rbenv init - | psub)
 # https://github.com/garabik/grc
 status --is-interactive; and source (brew --prefix)/etc/grc.fish
 
-set -gxp PATH .git/safe/../../bin ~/.bin
-set -gx GHQ_ROOT ~/Code
-set -gx HOMEBREW_NO_AUTO_UPDATE 1
+# https://thoughtbot.com/blog/git-safe
+set -gxp PATH .git/safe/../../bin
