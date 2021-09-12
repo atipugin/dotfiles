@@ -2,6 +2,12 @@
 
 set -ex
 
+# 0. Ensure `brew` can be found
+
+if [ "$(uname -m)" = arm64 ] && ! echo "$PATH" | grep -q /opt/homebrew/bin; then
+  export PATH=/opt/homebrew/bin:$PATH
+fi
+
 # 1. Install Homebrew
 if ! command -v brew >/dev/null; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
