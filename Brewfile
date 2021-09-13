@@ -61,3 +61,4 @@ mas 'Reeder', id: 1529448980
 mas 'Soulver 3', id: 1508732804
 mas 'Telegram', id: 747648890
 mas 'Things', id: 904280696
+mas 'Wipr', id: 1320666476
