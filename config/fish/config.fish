@@ -1,9 +1,10 @@
-# Set paths
-fish_add_path ~/.local/bin /opt/homebrew/bin
-
 # Set vars
 set -gx GHQ_ROOT ~/Code
+set -gx GOPATH ~/.go
 set -gx HOMEBREW_NO_AUTO_UPDATE 1
+
+# Set paths
+fish_add_path ~/.local/bin $GOPATH/bin /opt/homebrew/bin
 
 # Start fish with no greeting
 set fish_greeting ''
