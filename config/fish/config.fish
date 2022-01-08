@@ -39,6 +39,8 @@ abbr -a grba git rebase --abort
 abbr -a grbc git rebase --continue
 abbr -a gss git status -s
 abbr -a gst git status
+abbr -a keti kubectl exec -ti
+abbr -a kgp kubectl get pod
 abbr -a lla ll -a
 abbr -a rc rails c
 abbr -a rd rails d
