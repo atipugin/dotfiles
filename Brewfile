@@ -28,6 +28,7 @@ brew 'ruby-build'
 brew 'shellcheck'
 brew 'shfmt'
 brew 'ssh-copy-id'
+brew 'starship'
 brew 'tldr'
 
 cask 'alfred'
