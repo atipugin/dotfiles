@@ -46,7 +46,7 @@ cask 'karabiner-elements'
 cask 'lulu'
 cask 'spotify'
 cask 'the-unarchiver'
-cask 'transmission'
+cask 'transmission-nightly'
 cask 'visual-studio-code'
 
 mas '1Password 7', id: 1333542190
