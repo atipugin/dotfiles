@@ -1,1 +1,1 @@
---database postgresql --skip-action-mailbox --skip-action-text --skip-active-storage --skip-action-cable --skip-spring --skip-listen --skip-turbolinks --skip-test
+--database postgresql --skip-action-mailbox --skip-action-text --skip-active-storage --skip-action-cable --skip-test --skip-hotwire --skip-jbuilder
