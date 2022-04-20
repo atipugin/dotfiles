@@ -44,6 +44,7 @@ cask 'iina'
 cask 'iterm2-beta'
 cask 'karabiner-elements'
 cask 'lulu'
+cask 'stats'
 cask 'the-unarchiver'
 cask 'transmission-nightly'
 cask 'visual-studio-code'
@@ -54,7 +55,9 @@ mas 'DaisyDisk', id: 411643860
 mas 'Dato', id: 1470584107
 mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
+mas 'Pure Paste', id: 1611378436
 mas 'Reeder', id: 1529448980
+mas 'Shareful', id: 1522267256
 mas 'Soulver 3', id: 1508732804
 mas 'Telegram', id: 747648890
 mas 'Things', id: 904280696
