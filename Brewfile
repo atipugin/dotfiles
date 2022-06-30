@@ -44,6 +44,7 @@ cask 'iina'
 cask 'iterm2-beta'
 cask 'karabiner-elements'
 cask 'lulu'
+cask 'michaelvillar-timer'
 cask 'mullvadvpn'
 cask 'stats'
 cask 'the-unarchiver'
@@ -54,7 +55,6 @@ mas '1Password 7', id: 1333542190
 mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
 mas 'Dato', id: 1470584107
-mas 'Gestimer', id: 990588172
 mas 'Magnet', id: 441258766
 mas 'Pure Paste', id: 1611378436
 mas 'Reeder', id: 1529448980
