@@ -51,7 +51,7 @@ cask 'the-unarchiver'
 cask 'transmission-nightly'
 cask 'visual-studio-code'
 
-mas '1Password 7', id: 1333542190
+mas 'Bitwarden', id: 1352778147
 mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
 mas 'Dato', id: 1470584107
