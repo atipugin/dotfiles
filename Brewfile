@@ -34,7 +34,6 @@ brew 'tldr'
 cask 'appcleaner'
 cask 'bartender'
 cask 'dash'
-cask 'finicky'
 cask 'font-fira-code'
 cask 'fork'
 cask 'forklift'
@@ -62,4 +61,5 @@ mas 'Shareful', id: 1522267256
 mas 'Soulver 3', id: 1508732804
 mas 'Telegram', id: 747648890
 mas 'Things', id: 904280696
+mas 'Velja', id: 1607635845
 mas 'Wipr', id: 1320666476
