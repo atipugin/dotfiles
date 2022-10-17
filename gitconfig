@@ -6,7 +6,6 @@
 [core]
   autocrlf = input
   excludesfile = ~/.gitignore_global
-  pager = delta
 
 [color]
   ui = auto
@@ -29,11 +28,21 @@
 [commit]
   gpgsign = true
 
-[delta]
-  side-by-side = true
-
 [alias]
   open = "!git rev-parse --abbrev-ref HEAD | xargs gh repo view --web --branch"
+  dft = difftool
 
 [init]
   defaultBranch = main
+
+[pager]
+  difftool = true
+
+[diff]
+  tool = difftastic
+
+[difftool]
+  prompt = false
+
+[difftool "difftastic"]
+  cmd = difft "$LOCAL" "$REMOTE"
