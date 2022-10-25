@@ -41,6 +41,7 @@ abbr -a gss git status -s
 abbr -a gst git status
 abbr -a keti kubectl exec -ti
 abbr -a kgp kubectl get pod
+abbr -a klf kubectl logs -f
 abbr -a lla ll -a
 abbr -a rc rails c
 abbr -a rd rails d
