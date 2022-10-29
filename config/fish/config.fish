@@ -62,3 +62,6 @@ status --is-interactive; and source (brew --prefix)/etc/grc.fish
 
 # https://thoughtbot.com/blog/git-safe
 set -gxp PATH .git/safe/../../bin
+
+# https://github.com/starship/starship
+status --is-interactive; and starship init fish | source
