@@ -54,8 +54,8 @@ alias r=rails
 # https://github.com/gsamokovarov/jump
 status --is-interactive; and source (jump shell fish | psub)
 
-# https://github.com/rbenv/rbenv
-status --is-interactive; and source (rbenv init - | psub)
+# https://github.com/asdf-vm/asdf
+status --is-interactive; and source (brew --prefix asdf)/libexec/asdf.fish
 
 # https://github.com/garabik/grc
 status --is-interactive; and source (brew --prefix)/etc/grc.fish
