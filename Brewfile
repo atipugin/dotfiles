@@ -29,6 +29,7 @@ brew 'ssh-copy-id'
 brew 'starship'
 brew 'tldr'
 
+cask 'alt-tab'
 cask 'appcleaner'
 cask 'bartender'
 cask 'dash'
