@@ -16,6 +16,7 @@ set -g __fish_git_prompt_color_dirtystate yellow
 set -g __fish_git_prompt_color_invalidstate red
 
 # Abbreviations
+abbr -a bri brew install
 abbr -a be bundle exec
 abbr -a ga git add
 abbr -a gb git branch
