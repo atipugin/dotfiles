@@ -1,9 +1,8 @@
 #!/bin/sh
 
-set -ex
+set -euxo pipefail
 
 # 0. Ensure `brew` can be found
-
 if [ "$(uname -m)" = arm64 ] && ! echo "$PATH" | grep -q /opt/homebrew/bin; then
   export PATH=/opt/homebrew/bin:$PATH
 fi
