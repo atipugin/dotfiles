@@ -39,7 +39,6 @@ cask 'iterm2-nightly'
 cask 'karabiner-elements'
 cask 'lulu'
 cask 'michaelvillar-timer'
-cask 'mullvadvpn'
 cask 'raycast'
 cask 'stats'
 cask 'the-unarchiver'
@@ -59,3 +58,4 @@ mas 'Telegram', id: 747648890
 mas 'Things', id: 904280696
 mas 'Velja', id: 1607635845
 mas 'Wipr', id: 1320666476
+mas 'WireGuard', id: 1451685025
