@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$HOME/.restic/env.bash"
+
+_timestamp() {
+  date +"%Y-%m-%d %H:%M:%S"
+}
+
+_restic() {
+  /opt/homebrew/bin/restic "$@"
+}
+
+echo "[$(_timestamp)] Starting cleanup"
+printf "\n"
+
+_restic forget \
+  --host="$RESTIC_HOST" \
+  --keep-within-hourly=1d \
+  --keep-within-daily=7d \
+  --keep-within-weekly=1m \
+  --keep-within-monthly=1y \
+  --keep-within-yearly=100y
+
+_restic prune
+
+_restic check
+
+printf "\n"
+echo "[$(_timestamp)] Cleanup finished"

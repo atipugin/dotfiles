@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$HOME/.restic/env.bash"
+
+_timestamp() {
+  date +"%Y-%m-%d %H:%M:%S"
+}
+
+_restic() {
+  /opt/homebrew/bin/restic "$@"
+}
+
+echo "[$(_timestamp)] Starting backup"
+printf "\n"
+
+_restic backup \
+  --host="$RESTIC_HOST" \
+  --cleanup-cache \
+  --compression=max \
+  --exclude-caches \
+  --exclude-file="$HOME/.restic/exclude" \
+  "${RESTIC_BACKUP_DIRS[@]}" 2>&1
+
+printf "\n"
+echo "[$(_timestamp)] Backup finished"

@@ -1,0 +1,6 @@
+.DS_Store
+.localized
+.venv
+cache
+logs
+node_modules
