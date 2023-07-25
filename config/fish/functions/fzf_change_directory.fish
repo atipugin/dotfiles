@@ -4,9 +4,8 @@ function fzf_change_directory
         ghq list -p
         jump top
     end | awk '!seen[$0]++' | fzf --reverse --border --height 100% --prompt " Jump to dir: " | read dir
-
+    commandline -f repaint
     if test -n "$dir"
         cd $dir
-        commandline -f repaint
     end
 end
