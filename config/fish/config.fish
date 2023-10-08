@@ -52,17 +52,20 @@ abbr -a rgen rails g
 alias g=git
 alias r=rails
 
-# https://github.com/gsamokovarov/jump
-status --is-interactive; and source (jump shell fish | psub)
+# https://github.com/jdxcode/rtx
+rtx activate fish | source
 
-# https://github.com/asdf-vm/asdf
-status --is-interactive; and source (brew --prefix asdf)/libexec/asdf.fish
 
-# https://github.com/garabik/grc
-status --is-interactive; and source (brew --prefix)/etc/grc.fish
+if status --is-interactive
+    # https://github.com/gsamokovarov/jump
+    source (jump shell fish | psub)
 
-# https://thoughtbot.com/blog/git-safe
-set -gxp PATH .git/safe/../../bin
+    # https://github.com/garabik/grc
+    source (brew --prefix)/etc/grc.fish
 
-# https://github.com/starship/starship
-status --is-interactive; and starship init fish | source
+    # https://github.com/starship/starship
+    starship init fish | source
+
+    # https://thoughtbot.com/blog/git-safe
+    set -gxp PATH .git/safe/../../bin
+end
