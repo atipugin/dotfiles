@@ -53,6 +53,7 @@ mas 'Bitwarden', id: 1352778147
 mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
 mas 'Dato', id: 1470584107
+mas 'FoXray', id: 6448898396
 mas 'Hush', id: 1544743900
 mas 'Magnet', id: 441258766
 mas 'Pure Paste', id: 1611378436
@@ -63,4 +64,3 @@ mas 'Telegram', id: 747648890
 mas 'Things', id: 904280696
 mas 'Velja', id: 1607635845
 mas 'Wipr', id: 1320666476
-mas 'WireGuard', id: 1451685025
