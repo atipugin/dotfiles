@@ -4,7 +4,7 @@ tap 'thoughtbot/formulae'
 
 brew 'curl'
 brew 'difftastic'
-brew 'exa'
+brew 'eza'
 brew 'fish'
 brew 'fzf'
 brew 'gh'

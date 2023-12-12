@@ -1,3 +1,3 @@
 function tree
-    exa --tree --icons $argv
+    eza --tree --icons $argv
 end
