@@ -2,6 +2,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'thoughtbot/formulae'
 
+brew 'atuin'
 brew 'curl'
 brew 'difftastic'
 brew 'eza'
