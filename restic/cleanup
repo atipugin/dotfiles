@@ -15,6 +15,12 @@ _restic() {
 echo "[$(_timestamp)] Starting cleanup"
 printf "\n"
 
+for arg in "$@"; do
+  if [ "$arg" == "--unlock" ]; then
+    _restic unlock
+  fi
+done
+
 _restic forget \
   --host="$RESTIC_HOST" \
   --keep-within-hourly=1d \
