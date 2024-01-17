@@ -65,9 +65,19 @@ if status --is-interactive
     # https://github.com/garabik/grc
     source (brew --prefix)/etc/grc.fish
 
+    # https://github.com/ellie/atuin
+    set -gx ATUIN_NOBIND true
+    atuin init fish | source
+
     # https://github.com/starship/starship
     starship init fish | source
-
-    # https://thoughtbot.com/blog/git-safe
-    set -gxp PATH .git/safe/../../bin
 end
+
+# Load local config if exists
+set local_conf_path (dirname (status --current-file))/config.local.fish
+if test -f $local_conf_path
+    source $local_conf_path
+end
+
+# https://thoughtbot.com/blog/git-safe
+fish_add_path .git/safe/../../bin
