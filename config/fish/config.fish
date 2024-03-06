@@ -53,12 +53,13 @@ alias g=git
 alias r=rails
 
 # https://github.com/jdx/mise
-if status --is-interactive
+if status is-interactive
     mise activate fish | source
+else
+    mise activate fish --shims | source
 end
-fish_add_path ~/.local/share/mise/shims
 
-if status --is-interactive
+if status is-interactive
     # https://github.com/gsamokovarov/jump
     source (jump shell fish | psub)
 
