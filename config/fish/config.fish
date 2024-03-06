@@ -81,4 +81,4 @@ if test -f $local_conf_path
 end
 
 # https://thoughtbot.com/blog/git-safe
-fish_add_path .git/safe/../../bin
+set -gxp PATH .git/safe/../../bin
