@@ -1,0 +1,32 @@
+{
+  "title": "Hyper Key",
+  "rules": [
+    {
+      "manipulators": [
+        {
+          "description": "Map right Option to Hyper Key (Ctrl+Alt+Shift+Cmd)",
+          "type": "basic",
+          "from": {
+            "key_code": "right_option"
+          },
+          "to": [
+            {
+              "key_code": "left_control",
+              "modifiers": [
+                "left_option",
+                "left_shift",
+                "left_command"
+              ],
+              "lazy": true
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "right_option"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
