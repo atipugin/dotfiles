@@ -10,14 +10,16 @@ fish_add_path ~/.local/bin $GOPATH/bin /opt/homebrew/bin
 set fish_greeting ''
 
 # git prompt
-set -g __fish_git_prompt_show_informative_status 1
 set -g __fish_git_prompt_color_cleanstate green --bold
 set -g __fish_git_prompt_color_dirtystate yellow
 set -g __fish_git_prompt_color_invalidstate red
+set -g __fish_git_prompt_show_informative_status 1
 
 # Abbreviations
 abbr -a bri brew install
 abbr -a be bundle exec
+abbr -a dcr docker compose run
+abbr -a dcu docker compose up
 abbr -a ga git add
 abbr -a gb git branch
 abbr -a gba git branch -a
@@ -61,7 +63,7 @@ end
 
 if status is-interactive
     # https://github.com/gsamokovarov/jump
-    source (jump shell fish | psub)
+    jump shell fish | source
 
     # https://github.com/garabik/grc
     source (brew --prefix)/etc/grc.fish
@@ -75,7 +77,7 @@ if status is-interactive
 end
 
 # Load local config if exists
-set local_conf_path (dirname (status --current-file))/config.local.fish
+set local_conf_path (dirname (status current-filename))/config.local.fish
 if test -f $local_conf_path
     source $local_conf_path
 end
