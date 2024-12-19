@@ -1,10 +1,9 @@
 # Set vars
 set -gx GHQ_ROOT ~/Code
-set -gx GOPATH ~/.go
 set -gx HOMEBREW_NO_AUTO_UPDATE 1
 
 # Set paths
-fish_add_path ~/.local/bin $GOPATH/bin /opt/homebrew/bin
+fish_add_path ~/.local/bin /opt/homebrew/bin
 
 # Start fish with no greeting
 set fish_greeting ''
@@ -16,8 +15,11 @@ set -g __fish_git_prompt_color_invalidstate red
 set -g __fish_git_prompt_show_informative_status 1
 
 # Abbreviations
-abbr -a bri brew install
 abbr -a be bundle exec
+abbr -a bri brew install
+abbr -a brls brew list
+abbr -a bruz brew uninstall --zap
+abbr -a dcb docker compose build
 abbr -a dcr docker compose run
 abbr -a dcu docker compose up
 abbr -a ga git add
@@ -44,7 +46,11 @@ abbr -a gss git status -s
 abbr -a gst git status
 abbr -a keti kubectl exec -ti
 abbr -a kgp kubectl get pod
+abbr -a kgpr kubectl get pod --field-selector status.phase=Running
 abbr -a klf kubectl logs -f
+abbr -a kns kubens
+abbr -a ktx kubectx
+abbr -a ktxc kubectx -c
 abbr -a lla ll -a
 abbr -a rc rails c
 abbr -a rd rails d
@@ -56,14 +62,20 @@ alias r=rails
 
 # https://github.com/jdx/mise
 if status is-interactive
+    # Some VS Code extensions run fish in interactive mode (`fish -i -c "ruby
+    # ..."`). `mise activate`, on the other hand, waits for the prompt to be
+    # rendered and only then updates the environment. That's why we have to call
+    # `mise hook-env` manually.
+    # More details: https://mise.jdx.dev/dev-tools/shims.html
     mise activate fish | source
+    mise hook-env -s fish | source
 else
     mise activate fish --shims | source
 end
 
 if status is-interactive
-    # https://github.com/gsamokovarov/jump
-    jump shell fish | source
+    # https://github.com/ajeetdsouza/zoxide
+    zoxide init fish | source
 
     # https://github.com/garabik/grc
     source (brew --prefix)/etc/grc.fish

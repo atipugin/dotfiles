@@ -28,5 +28,5 @@ elif [ -p /dev/stdin ]; then
     printf "\n\n"
   ) >>"$_file"
 else
-  "$EDITOR" "$_file"
+  eval "$EDITOR" "\"${_file}\""
 fi

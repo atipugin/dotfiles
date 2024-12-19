@@ -1,10 +1,10 @@
 #!/bin/sh
 
-set -euxo pipefail
+set -eux
 
 # 0. Ensure `brew` can be found
 if [ "$(uname -m)" = arm64 ] && ! echo "$PATH" | grep -q /opt/homebrew/bin; then
-  export PATH=/opt/homebrew/bin:$PATH
+  export PATH="/opt/homebrew/bin:$PATH"
 fi
 
 # 1. Install Homebrew
@@ -25,7 +25,7 @@ fi
 brew bundle --file="$_dir/Brewfile"
 
 # 5. Install dotfiles
-env RCRC="$_dir/rcrc" rcup
+xargs stow --dir "$_dir" --target "$HOME" --verbose <"$_dir/Stowfile"
 
 # 6. Configure OSX
 "$_dir/osx"
