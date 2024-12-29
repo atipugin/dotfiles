@@ -1,0 +1,4 @@
+theme = light:rose-pine-dawn,dark:rose-pine
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+adjust-cell-height = 10%
