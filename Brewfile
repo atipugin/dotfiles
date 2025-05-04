@@ -26,6 +26,7 @@ brew 'ssh-copy-id'
 brew 'starship'
 brew 'stow'
 brew 'tldr'
+brew 'tmux'
 brew 'zoxide'
 
 cask 'alt-tab'
