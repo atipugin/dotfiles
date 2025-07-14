@@ -11,15 +11,16 @@ brew 'gh'
 brew 'ghq'
 brew 'git'
 brew 'gnupg'
-brew 'grc'
 brew 'httpie'
-brew 'jump'
+brew 'lazygit'
 brew 'mackup'
 brew 'mas'
 brew 'mise'
+brew 'neovim'
 brew 'openssl'
 brew 'pinentry-mac'
 brew 'restic'
+brew 'ripgrep'
 brew 'shellcheck'
 brew 'shfmt'
 brew 'ssh-copy-id'
@@ -63,7 +64,6 @@ mas 'Bitwarden', id: 1352778147
 mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
 mas 'Dato', id: 1470584107
-mas 'FoXray', id: 6448898396
 mas 'Hush', id: 1544743900
 mas 'LocalSend', id: 1661733229
 mas 'Magnet', id: 441258766

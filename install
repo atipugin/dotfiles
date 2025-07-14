@@ -12,25 +12,22 @@ if ! command -v brew >/dev/null; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-# 2. Install Homebrew Bundle
-brew tap Homebrew/bundle
-
-# 3. Clone the repo
+# 2. Clone the repo
 _dir=$HOME/.dotfiles
 if [ ! -d "$_dir" ]; then
   git clone https://github.com/atipugin/dotfiles.git "$_dir"
 fi
 
-# 4. Install brews and apps
+# 3. Install brews and apps
 brew bundle --file="$_dir/Brewfile"
 
-# 5. Install dotfiles
+# 4. Install dotfiles
 xargs stow --dir "$_dir" --target "$HOME" --verbose <"$_dir/Stowfile"
 
-# 6. Configure OSX
+# 5. Configure OSX
 "$_dir/osx"
 
-# 7. Configure fish as default shell
+# 6. Configure fish as default shell
 _fish_path=$(which fish)
 if ! grep -q "$_fish_path" /etc/shells; then
   echo "$_fish_path" | sudo tee -a /etc/shells

@@ -57,35 +57,34 @@ abbr -a rd rails d
 abbr -a rgen rails g
 
 # Aliases
-alias g=git
-alias r=rails
+alias g git
+alias r rails
 
 # https://github.com/jdx/mise
-if status is-interactive
-    # Some VS Code extensions run fish in interactive mode (`fish -i -c "ruby
-    # ..."`). `mise activate`, on the other hand, waits for the prompt to be
-    # rendered and only then updates the environment. That's why we have to call
-    # `mise hook-env` manually.
-    # More details: https://mise.jdx.dev/dev-tools/shims.html
-    mise activate fish | source
-    mise hook-env -s fish | source
-else
-    mise activate fish --shims | source
+if type -q mise
+    if status is-interactive
+        mise activate fish | source
+    else
+        mise activate fish --shims | source
+    end
 end
 
 if status is-interactive
     # https://github.com/ajeetdsouza/zoxide
-    zoxide init fish | source
-
-    # https://github.com/garabik/grc
-    source (brew --prefix)/etc/grc.fish
+    if type -q zoxide
+        zoxide init fish | source
+    end
 
     # https://github.com/ellie/atuin
-    set -gx ATUIN_NOBIND true
-    atuin init fish | source
+    if type -q atuin
+        set -gx ATUIN_NOBIND 1
+        atuin init fish | source
+    end
 
     # https://github.com/starship/starship
-    starship init fish | source
+    if type -q starship
+        starship init fish | source
+    end
 end
 
 # Load local config if exists
