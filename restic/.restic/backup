@@ -4,15 +4,15 @@ set -euo pipefail
 
 source "$HOME/.restic/env.bash"
 
-_timestamp() {
-  date +"%Y-%m-%d %H:%M:%S"
+_say() {
+  printf "[%s] %s\n" "$(date +"%Y-%m-%d %H:%M:%S")" "$1"
 }
 
 _restic() {
   /opt/homebrew/bin/restic "$@"
 }
 
-echo "[$(_timestamp)] Starting backup"
+_say "Starting backup"
 printf "\n"
 
 _restic backup \
@@ -23,5 +23,11 @@ _restic backup \
   --exclude-file="$HOME/.restic/exclude" \
   "${RESTIC_BACKUP_DIRS[@]}" 2>&1
 
+if [ -n "$RESTIC_POST_BACKUP_COMMAND" ]; then
+  printf "\n"
+  _say "Running post-backup command"
+  eval "$RESTIC_POST_BACKUP_COMMAND"
+fi
+
 printf "\n"
-echo "[$(_timestamp)] Backup finished"
+_say "Backup finished"

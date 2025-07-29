@@ -4,15 +4,15 @@ set -euo pipefail
 
 source "$HOME/.restic/env.bash"
 
-_timestamp() {
-  date +"%Y-%m-%d %H:%M:%S"
+_say() {
+  printf "[%s] %s\n" "$(date +"%Y-%m-%d %H:%M:%S")" "$1"
 }
 
 _restic() {
   /opt/homebrew/bin/restic "$@"
 }
 
-echo "[$(_timestamp)] Starting cleanup"
+_say "Starting cleanup"
 printf "\n"
 
 for arg in "$@"; do
@@ -34,4 +34,4 @@ _restic prune
 _restic check
 
 printf "\n"
-echo "[$(_timestamp)] Cleanup finished"
+_say "Cleanup finished"
