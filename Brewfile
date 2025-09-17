@@ -2,6 +2,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 
 brew 'atuin'
+brew 'carapace'
 brew 'curl'
 brew 'difftastic'
 brew 'eza'

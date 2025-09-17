@@ -85,6 +85,11 @@ if status is-interactive
     if type -q starship
         starship init fish | source
     end
+
+    # https://github.com/carapace-sh/carapace
+    if type -q carapace
+        carapace _carapace | source
+    end
 end
 
 # Load local config if exists
