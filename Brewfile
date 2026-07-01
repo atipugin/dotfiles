@@ -66,7 +66,6 @@ cask 'stats'
 cask 'thaw'
 cask 'transmission'
 cask 'visual-studio-code'
-cask 'wezterm@nightly'
 
 mas 'Bitwarden', id: 1352778147
 mas 'Caffeinated', id: 1362171212
