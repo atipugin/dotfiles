@@ -37,8 +37,8 @@ brew 'tldr'
 brew 'tmux'
 brew 'zoxide'
 
-cask 'alt-tab'
 cask 'appcleaner'
+cask 'bettercmdtab'
 cask 'calendr'
 cask 'dash@6'
 cask 'font-jetbrains-mono-nerd-font'
@@ -70,7 +70,6 @@ cask 'visual-studio-code'
 mas 'Bitwarden', id: 1352778147
 mas 'Caffeinated', id: 1362171212
 mas 'DaisyDisk', id: 411643860
-mas 'Dato', id: 1470584107
 mas 'Hush', id: 1544743900
 mas 'LocalSend', id: 1661733229
 mas 'Magnet', id: 441258766
