@@ -90,6 +90,11 @@ if status is-interactive
     if type -q carapace
         carapace _carapace | source
     end
+
+    # https://github.com/max-sixty/worktrunk
+    if type -q wt
+        wt config shell init fish | source
+    end
 end
 
 # Load local config if exists
