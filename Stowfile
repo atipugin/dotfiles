@@ -11,3 +11,4 @@ restic
 ruby
 scripts
 starship
+tmux

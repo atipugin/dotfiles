@@ -1,5 +1,3 @@
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'pakerwreah/calendr'
 
 brew 'atuin'

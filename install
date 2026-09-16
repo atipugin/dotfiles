@@ -22,7 +22,7 @@ fi
 brew bundle --file="$_dir/Brewfile"
 
 # 4. Install dotfiles
-xargs stow --dir "$_dir" --target "$HOME" --verbose <"$_dir/Stowfile"
+xargs stow --dir "$_dir" --target "$HOME" --no-folding --verbose <"$_dir/Stowfile"
 
 # 5. Configure OSX
 "$_dir/osx"
