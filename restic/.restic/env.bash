@@ -8,6 +8,6 @@ RESTIC_REPOSITORY=$(security find-generic-password -s restic-repository -w)
 
 export AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY RESTIC_HOST RESTIC_PASSWORD_COMMAND RESTIC_REPOSITORY
 
-if [ -f "$HOME/.restic/env.bash.local" ]; then
-  source "$HOME/.restic/env.bash.local"
+if [ -f "$HOME/.restic/env.local.bash" ]; then
+  source "$HOME/.restic/env.local.bash"
 fi
