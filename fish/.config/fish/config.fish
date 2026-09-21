@@ -52,6 +52,7 @@ abbr -a kns kubens
 abbr -a ktx kubectx
 abbr -a ktxc kubectx -c
 abbr -a lla ll -a
+abbr -a lzg lazygit
 abbr -a rc rails c
 abbr -a rd rails d
 abbr -a rgen rails g
