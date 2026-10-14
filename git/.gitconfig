@@ -46,3 +46,6 @@
 
 [difftool "difftastic"]
   cmd = difft "$LOCAL" "$REMOTE"
+
+[include]
+  path = ~/.gitconfig.local
