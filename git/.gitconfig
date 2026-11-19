@@ -49,3 +49,8 @@
 
 [include]
   path = ~/.gitconfig.local
+
+[filter "pi-settings"]
+  clean = jq 'del(.deviceId, .lastChangelogVersion, .extensionChangelogVersions)'
+  smudge = cat
+  required = true

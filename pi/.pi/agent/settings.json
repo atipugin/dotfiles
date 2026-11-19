@@ -1,0 +1,16 @@
+{
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-6.1-sol",
+  "packages": [
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:pi-subagents",
+    "npm:pi-simplify",
+    "npm:pi-multi-account"
+  ],
+  "modelThinkingLevels": {
+    "openai-account-2/gpt-6.1-sol": "medium",
+    "openai/gpt-6.1-sol": "medium",
+    "openai-codex-account-2/gpt-6.1-sol": "medium",
+    "openai-codex-account-2/gpt-6.2-sol": "medium"
+  }
+}

@@ -1,5 +1,6 @@
 [tools]
 go = "latest"
 node = "latest"
+pi = { version = "latest", auto_update = true }
 python = "latest"
 ruby = "latest"
