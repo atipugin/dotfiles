@@ -5,6 +5,8 @@
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:pi-subagents",
     "npm:pi-simplify",
-    "npm:pi-multi-account"
+    "npm:pi-multi-account",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:pi-web-access"
   ]
 }
